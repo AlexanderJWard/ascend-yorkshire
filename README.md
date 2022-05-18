@@ -18,8 +18,14 @@
 
 ![image](https://user-images.githubusercontent.com/102811792/169016172-00520129-07ad-45f2-9955-e069d5dc90a8.png)
 
-5. Finally, click the __Save__ button.
+5. Click the __Save__ button.
 
 ![image](https://user-images.githubusercontent.com/102811792/169016299-f9e6ba13-9998-4b68-842a-f5735114f528.png)
+
+6. Finally, there will now be a blue banner showing the live link to the page.
+
+![image](https://user-images.githubusercontent.com/102811792/169017013-1eb9421d-d8ac-470c-989d-0b17ab75b3bc.png)
+
+The live link is located at https://alexanderjward.github.io/ascend-yorkshire/
 
 
