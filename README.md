@@ -26,6 +26,13 @@ Alexander Ward
 
 #### Typography
 
+For my title font I've chosen __Skranji__ as it looks very rugged and outdoorsy, fitting for the theme of my hiking website. Some of the letters look primative and can be pictured as part of a rock formation on a mountainside which I really think invokes the theme of Ascend Yorkshire.
+
+paste image here
+
+My secondary font is __Tillana__ which I picked as it's in keeping with the theme of my title font and I think compliments it nicely.
+
+paste image here
 
 #### Images
 
