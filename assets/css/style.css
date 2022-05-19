@@ -1,1 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&family=Tillana:wght@500;700&display=swap');
+
+* {
+    font-family: Tillana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Skranji, Tillana, sans-serif;
+    font-weight: 400;
+    color:#0F1A20;
+}
+
+header {
+    background-color: #8FB339;
+}
