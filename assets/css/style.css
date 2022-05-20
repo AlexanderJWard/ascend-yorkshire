@@ -14,26 +14,45 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     background-color: #8FB339;
-    height: 60px;
+    height: 80px;
     align-items: center;
-}
-
-h1 {
-    /* padding: 0.5rem 0; */
-    font-size: 50px;
-    text-align: center;
+    justify-content: center;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    flex-basis: 30%;
+
 }
 
 nav ~ div {
     display: flex;
-    flex-basis: 40%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div ~ nav {
+    justify-content: flex-start;
+}
+
+nav ~ div img {
+    height: 60px;
+    margin-right: 32rem;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 60px;
+    margin-top: 1rem;
+    position: absolute;
 }
 
 nav a {
