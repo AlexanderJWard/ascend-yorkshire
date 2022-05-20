@@ -30,7 +30,7 @@ nav {
     display: flex;
     padding: 0.5rem 0;
     justify-content: flex-start;
-    width: 35%;
+    /* width: 35%; */
     align-items: center;
 }
 
@@ -92,9 +92,9 @@ header img {
     background-repeat: no-repeat;
 }
 
-/* media query for screen size 1250px and under */
+/* media query for screen size 1400px and under */
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1400px) {
     
     /* header title & navigation links */
 
@@ -112,6 +112,10 @@ header img {
     nav {
         order: 2;
         justify-content: center;
+    }
+
+    nav a {
+        padding: 1rem 2rem;
     }
 }
 
@@ -134,5 +138,11 @@ header img {
         margin-right: 15.5rem;
         position: absolute;
     }    
+
+    nav a {
+        padding: 1rem 1rem;
+        margin: 0 0.5rem 0.5rem 0.5rem;
+        font-size: 15px;
+    }
 
 }
