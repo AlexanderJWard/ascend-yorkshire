@@ -77,6 +77,21 @@ header img {
     margin-right: 33rem;
 }
 
+/* hero image */
+
+#hero-image-box {
+    height: 800px;
+    border: 3px solid green;
+}
+
+#hero-image {
+    height: inherit;
+    background-image: url(../images/hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* media query for screen size 1250px and under */
 
 @media screen and (max-width: 1250px) {
