@@ -82,7 +82,6 @@ header img {
     height: 500px;
     width: 100%;
     overflow: hidden;
-    border: 3px solid green;
 }
 
 /* Image by <a href="https://pixabay.com/users/timhill-5727184/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2443093">Tim Hill</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2443093">Pixabay</a> */
@@ -94,7 +93,7 @@ header img {
     background-size: auto;
     background-repeat: no-repeat;
     animation-name: hero-diagonal-move;
-    animation-duration: 20s;
+    animation-duration: 30s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
@@ -120,7 +119,6 @@ header img {
     margin-bottom: 0.5rem;
     text-align: center;
     text-decoration: underline;
-    border: 1px solid blue;
 }
 
 /* welcome section text */
@@ -130,11 +128,10 @@ header img {
     display: flex;
     flex-direction: column;
     margin: 1rem;
-    border: 1px solid blue;
 }
 
 #welcome-section-text p {
-    border: 1px solid blue;
+    margin: 0.5rem 0 0 0.5rem;
 }
 
 /* welcome section images */
@@ -144,7 +141,6 @@ header img {
     flex-direction: column;
     display: flex;
     margin: 1rem;
-    border: 1px solid blue;
 }
 
 #welcome-image-box {
@@ -194,14 +190,6 @@ header img {
         padding: 1rem 2rem;
     }
 
-    /* welcome section */
-
-    /* welcome section images */
-
-    #welcome-section-images {
-        flex: 2;
-    }
-
 }
 
 /* media query for screen size 950px and under */
@@ -210,14 +198,14 @@ header img {
 
     /* welcome section */
 
-    /* welcome section images */
-
-    #welcome-section-images {
-        flex: 1;
+    #welcome-section {
+        flex-direction: column;
     }
 
-    #welcome-image-box {
-        /* gap: 1.5rem; */
+    /* welcome section images */
+
+    #welcome-image-box h3 {
+        text-align: center;
     }
 
 }
@@ -258,18 +246,20 @@ header img {
 
     /* hero image */
 
+    #hero-image-box {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
     /* hero image animation - Slow image pan from left to right */
 
     @keyframes hero-diagonal-move {
-        0%   {background-position: 50% 100%;}
+        0%   {background-position: 50% 80%;}
         100% {background-position: 50% 20%;}
     }
 
     /* welcome section */
-
-    #welcome-section {
-        flex-direction: column;
-    }
 
     /* welcome section text */
 
