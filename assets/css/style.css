@@ -164,7 +164,66 @@ header img {
     border: 5px solid #F4FFF8;
 }
 
-/* accommodation */
+/* accommodation section */
+
+#accommodation-section {
+    background-color: #F4FFF8;
+    color: #37371F;
+    display: flex;
+    flex-direction: column;
+}
+
+#accommodation-section h2 {
+    width: 100%;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 1rem;
+}
+
+#accommodation-section img {
+    width: 150px;
+    height: 150px;
+    margin: 0.5rem;
+}
+
+.accommodation-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.accommodation-box div {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 5px #37371F;
+    border-radius: 8px;
+    border-style: solid double double solid;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.accommodation-box h3 {
+    width: 100%;
+    font-size: 20px;
+    padding-left: 15rem;
+    margin-top: 1rem;
+}
+
+.accommodation-box p {
+    flex: 1;
+    margin: 1rem;
+}
+
+.accommodation-box ~ div div {
+    border-style: solid solid double double;
+}
+
+.accommodation-box ~ div h3 {
+    text-align: right;
+    padding-right: 15rem;
+}
 
 /* media query for screen size 1400px and under */
 
@@ -190,6 +249,18 @@ header img {
 
     nav a {
         padding: 1rem 2rem;
+    }
+
+}
+
+/* media query for screen size 1250px and under */
+
+@media screen and (max-width: 1250px) {
+    
+    /* accommodation section */
+
+    .accommodation-box {
+        flex-direction: column;
     }
 
 }
@@ -282,6 +353,13 @@ header img {
 
     #welcome-image-box h3 {
         text-align: center;
+    }
+
+    /* accommodation section */
+
+    .accommodation-box div {
+        align-items: flex-start;
+        flex-direction: column;
     }
 
 }
