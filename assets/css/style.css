@@ -167,4 +167,13 @@ header img {
         font-size: 16px;
     }
 
+    /* hero image */
+
+    /* hero image animation - Slow image pan from left to right */
+
+    @keyframes hero-diagonal-move {
+        0%   {background-position: 50% 100%;}
+        100% {background-position: 50% 20%;}
+}
+
 }
