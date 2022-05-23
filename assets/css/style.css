@@ -196,6 +196,15 @@ header img {
 
 @media screen and (max-width: 950px) {
 
+    /* hero image */
+
+    /* hero image animation - Slow image pan from left to right */
+    
+    @keyframes hero-diagonal-move {
+        0%   {background-position: 0% 80%;}
+        100% {background-position: 50% 20%;}
+    }
+
     /* welcome section */
 
     #welcome-section {
