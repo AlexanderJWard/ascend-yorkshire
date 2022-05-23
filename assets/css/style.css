@@ -147,25 +147,26 @@ header img {
     border: 1px solid blue;
 }
 
-#welcome-section-images div {
-    border: 1px solid blue;
+#welcome-image-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-#welcome-section-images h2 {
-    border: 1px solid blue;
+#welcome-image-box div {
+    margin: 0.5rem;
 }
 
-#welcome-section-images h3 {
+#welcome-image-box h3 {
     color: #F4FFF8;
-    border: 1px solid blue;
+    margin-bottom: 0.3rem;
 }
 
-/* pen-y-ghent */
-
-/* whernside */
-
-/* ingleborough */
-
+#welcome-image-box img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #F4FFF8;
+}
 
 /* media query for screen size 1400px and under */
 
@@ -192,12 +193,32 @@ header img {
     nav a {
         padding: 1rem 2rem;
     }
+
+    /* welcome section */
+
+    /* welcome section images */
+
+    #welcome-section-images {
+        flex: 2;
+    }
+
 }
 
 /* media query for screen size 950px and under */
 
 @media screen and (max-width: 950px) {
 
+    /* welcome section */
+
+    /* welcome section images */
+
+    #welcome-section-images {
+        flex: 1;
+    }
+
+    #welcome-image-box {
+        /* gap: 1.5rem; */
+    }
 
 }
 
@@ -242,6 +263,24 @@ header img {
     @keyframes hero-diagonal-move {
         0%   {background-position: 50% 100%;}
         100% {background-position: 50% 20%;}
-}
+    }
+
+    /* welcome section */
+
+    #welcome-section {
+        flex-direction: column;
+    }
+
+    /* welcome section text */
+
+    #welcome-section-text p {
+        text-align: center;
+    }
+
+    /* welcome section images */
+
+    #welcome-image-box h3 {
+        text-align: center;
+    }
 
 }
