@@ -216,6 +216,10 @@ header img {
     margin: 1rem;
 }
 
+.accommodation-box hr {
+    border: none;
+}
+
 .accommodation-box ~ div div {
     border-style: solid solid double double;
 }
@@ -259,8 +263,49 @@ header img {
     
     /* accommodation section */
 
+    #accommodation-section h2 {
+        text-align: center;
+    }
+
     .accommodation-box {
         flex-direction: column;
+    }
+
+    .accommodation-box div {
+        border: none;
+    }
+
+    .accommodation-box hr {
+        width: 80%;
+        align-self: center;
+        border: 1px solid #37371F;
+        background-color: #37371F;
+    }
+
+    .accommodation-box ~ div div {
+        border: none;
+    }
+
+    .accommodation-box ~ div h3 {
+        text-align: left;
+        padding-right: 0;
+        padding-left: 15rem;
+        order: 1;
+    }
+
+    .accommodation-box h3 {
+        text-align: left;
+        padding-right: 0;
+        padding-left: 15rem;
+        order: 1;
+    }
+
+    .accommodation-box p {
+        order: 3;
+    }
+
+    .accommodation-box img {
+        order: 2;
     }
 
 }
@@ -357,9 +402,39 @@ header img {
 
     /* accommodation section */
 
+    .accommodation-box {
+        align-content: center;
+    }
+
     .accommodation-box div {
         align-items: flex-start;
         flex-direction: column;
+        padding-bottom: 1rem;
+    }
+
+    .accommodation-box h3 {
+        text-align: center;
+        padding: 0;
+        order: 1;
+    }
+
+    .accommodation-box p {
+        text-align: center;
+        order: 2;
+    }
+
+    .accommodation-box img {
+        align-self: center;
+        order: 3;
+    }
+
+    .accommodation-box hr {
+        width: 50%;
+    }
+
+    .accommodation-box ~ div h3 {
+        text-align: center;
+        padding: 0;
     }
 
 }
