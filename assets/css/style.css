@@ -155,13 +155,16 @@ header img {
     border: 1px solid blue;
 }
 
+#welcome-section-images h3 {
+    color: #F4FFF8;
+    border: 1px solid blue;
+}
+
 /* pen-y-ghent */
 
 /* whernside */
 
 /* ingleborough */
-
-/* Image by <a href="https://pixabay.com/users/adrianseedhill-1306580/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6936162">adrianseedhill</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6936162">Pixabay</a> */
 
 
 /* media query for screen size 1400px and under */
