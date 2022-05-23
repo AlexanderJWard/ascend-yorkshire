@@ -23,19 +23,21 @@ Alexander Ward
 
 #### Colors
 
-I've picked earthy colors that work well together to match my Ascend Yorkshire theme due to it being a website focused on the outdoors. Green is the main staple color which will be complimented with a nice dark olive green/brown, I'm also using a white with very light green tones. I've also picked a bright white and rich black to be used to replace potential low contrast matches of my chosen colors. I've tested combination of my colors in a contrast accessibility website to ensure my website is readable by people with visual impairment.
+I've picked earthy colors that work well together to match my Ascend Yorkshire theme due to it being a website focused on the outdoors. The main color is a nice dark olive green/brown which I'm using alongside a white with very light green tones. There's also a complimentary dark green background being used throughout for some sections. I've also picked a bright white and rich black to potentially use to replace potential low contrast issues if they arise. I've tested multiple combinations of my colors in a contrast accessibility website, https://webaim.org/resources/contrastchecker/, to ensure my website is readable by people with visual impairment.
 
-- #8FB339 - Apple Green
 - #37371F - Olive Drab
 - #F4FFF8 - Mint Cream
+- #1F371F - Phthalo Green
 - #F8F8F8 - Cultured (Contrast replacement)
 - #0F1A20 - Rich Black (Contrast replacement)
 
-![image](https://user-images.githubusercontent.com/102811792/169292931-735e3f16-b4e5-4c7d-b09a-65f52b4f4810.png)
+
+![image](https://user-images.githubusercontent.com/102811792/169293422-8e36411b-7468-44c2-85c5-164761951ce8.png)
 
 ![image](https://user-images.githubusercontent.com/102811792/169293279-b391790b-3ced-4339-84d4-651b5a85c075.png)
 
-![image](https://user-images.githubusercontent.com/102811792/169293422-8e36411b-7468-44c2-85c5-164761951ce8.png)
+![image](https://user-images.githubusercontent.com/102811792/169846135-672f0428-81f8-4c5c-ab8f-e8ff0ef1dde7.png)
+
 
 #### Typography
 
