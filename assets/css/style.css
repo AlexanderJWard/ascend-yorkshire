@@ -79,26 +79,31 @@ header img {
 /* hero image */
 
 #hero-image-box {
-    height: 800px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     border: 3px solid green;
 }
 
+/* Image by <a href="https://pixabay.com/users/timhill-5727184/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2443093">Tim Hill</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2443093">Pixabay</a> */
+
 #hero-image {
     height: inherit;
     background-image: url(../images/hero-image.jpg);
-    background-position: center bottom;
-    background-size: 120%;
+    background-position: left bottom;
+    background-size: auto;
     background-repeat: no-repeat;
     animation-name: hero-diagonal-move;
-    animation-duration: 15s;
+    animation-duration: 20s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
+/* hero image animation - Slow image pan from left to right */
+
 @keyframes hero-diagonal-move {
     0%   {background-position: left bottom;}
-    100% {background-position: center center;}
+    100% {background-position: right center;}
 }
 
 /* media query for screen size 1400px and under */
@@ -113,14 +118,14 @@ header img {
 
     /* navigation links */
 
-    nav ~ div {
-        order: 1;
-        width: 100%;
-    }
-
     nav {
         order: 2;
         justify-content: center;
+    }
+
+    nav ~ div {
+        order: 1;
+        width: 100%;
     }
 
     nav a {
@@ -147,6 +152,8 @@ header img {
         margin-right: 17rem;
         position: absolute;
     }    
+
+    /* navigation links */
 
     nav ~ div {
         order: 1;
