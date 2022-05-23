@@ -137,7 +137,7 @@ header img {
 /* welcome section images */
 
 #welcome-section-images {
-    flex: 1;
+    flex: 2;
     flex-direction: column;
     display: flex;
     margin: 1rem;
@@ -176,6 +176,7 @@ header img {
 #accommodation-section h2 {
     width: 100%;
     font-size: 30px;
+    text-align: center;
     text-decoration: underline;
     margin-left: 1rem;
 }
@@ -197,9 +198,8 @@ header img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    border: 5px #37371F;
+    border: 5px solid #37371F;
     border-radius: 8px;
-    border-style: solid double double solid;
     padding: 0.5rem;
     margin: 1rem;
 }
@@ -220,13 +220,32 @@ header img {
     border: none;
 }
 
-.accommodation-box ~ div div {
-    border-style: solid solid double double;
-}
-
 .accommodation-box ~ div h3 {
     text-align: right;
     padding-right: 15rem;
+}
+
+/* media query for screen size 1900px and over */
+
+@media screen and (min-width: 1900px) {
+
+    #hero-image {
+        background-size: cover;
+    }
+
+    /* hero image animation - Slow image pan from left to right */
+
+    @keyframes hero-diagonal-move {
+    0%   {background-position: left bottom;}
+    100% {background-position: right top;}
+    }
+
+    #welcome-image-box img {
+        height: 300px;
+        width: 300px;
+        border: 5px solid #F4FFF8;
+    }
+
 }
 
 /* media query for screen size 1400px and under */
@@ -262,10 +281,6 @@ header img {
 @media screen and (max-width: 1250px) {
     
     /* accommodation section */
-
-    #accommodation-section h2 {
-        text-align: center;
-    }
 
     .accommodation-box {
         flex-direction: column;
