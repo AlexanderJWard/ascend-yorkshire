@@ -269,7 +269,6 @@ header img {
 
 #getting-here {
     display: flex;
-    align-items: flex-end;
     justify-items: flex-end;
     flex-direction: column;
     width: 100%;
@@ -516,6 +515,8 @@ footer i {
 
     #getting-here h2 {
         padding-left: 0;
+        text-align: center;
+        align-self: center;
     }
 
 }
