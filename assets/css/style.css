@@ -668,4 +668,27 @@ footer i {
         padding-left: 0;
     }
 
+     /* footer */
+
+    footer {
+        height: 6rem;
+    }
+
+    footer img {
+        height: 0;
+        width: 0;
+    }
+
+     /* social media links  */
+
+    footer div {
+        align-self: center;
+        gap: 2rem;
+        padding-bottom: 0;
+    }
+
+    footer i {
+        font-size: 60px;
+    }
+
 }
