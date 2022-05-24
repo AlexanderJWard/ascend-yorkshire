@@ -228,12 +228,36 @@ header img {
 /* other information */
 
 #other-information-section {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #1F371F;
-    height: 400px;
+    color: #F4FFF8;
 }
 
 #other-information-section h2 {
     color: #F4FFF8;
+    text-decoration: underline;
+}
+
+#other-information-section p {
+    margin-top: 0.5rem;
+}
+
+#other-information {
+    flex: 1;
+}
+
+#parking-information {
+    flex: 1;
+}
+
+#getting-here {
+    width: 100%;
+}
+
+.other-information-box {
+    border: 1px solid #F4FFF8;
+    margin: 1rem;
 }
 
 /* media query for screen size 1900px and over */
