@@ -11,7 +11,7 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: Skranji, Tillana, sans-serif;
     font-weight: 400;
-    color:#0F1A20;
+    color: #37371F;
 }
 
 /* header title & navigation links */
@@ -225,9 +225,22 @@ header img {
     padding-right: 15rem;
 }
 
+/* other information */
+
+#other-information-section {
+    background-color: #1F371F;
+    height: 400px;
+}
+
+#other-information-section h2 {
+    color: #F4FFF8;
+}
+
 /* media query for screen size 1900px and over */
 
 @media screen and (min-width: 1900px) {
+
+    /* hero image */
 
     #hero-image {
         background-size: cover;
@@ -239,6 +252,10 @@ header img {
     0%   {background-position: left bottom;}
     100% {background-position: right top;}
     }
+
+    /* welcome section */
+
+    /* welcome section images */
 
     #welcome-image-box img {
         height: 300px;
