@@ -230,8 +230,10 @@ header img {
 #other-information-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-color: #1F371F;
     color: #F4FFF8;
+    padding-top: 1rem;
 }
 
 #other-information-section h2 {
@@ -244,20 +246,32 @@ header img {
 }
 
 #other-information {
+    display: flex;
+    flex-direction: column;
     flex: 1;
+    margin-left: 5rem;
+    border: 1px solid #F4FFF8;
 }
 
 #parking-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex: 1;
+    text-align: right;
+    margin-right: 5rem;
+    border: 1px solid #F4FFF8;
 }
 
 #getting-here {
     width: 100%;
+    margin-top: 3rem;
+    padding-left: 5rem;
+    border: 1px solid #F4FFF8;
 }
 
 .other-information-box {
-    border: 1px solid #F4FFF8;
-    margin: 1rem;
+    padding: 1rem;
 }
 
 /* media query for screen size 1900px and over */
@@ -389,6 +403,30 @@ header img {
 
     #welcome-image-box h3 {
         text-align: center;
+    }
+
+    /* other information */
+
+    #other-information-section {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #other-information {
+        margin: 0 1rem;
+        text-align: center;
+    }
+
+    #parking-information {
+        margin: 0 1rem;
+        text-align: center;
+    }
+
+    #getting-here {
+        text-align: center;
+        margin: 1rem 0 0 0;
+        padding: 0;
     }
 
 }
