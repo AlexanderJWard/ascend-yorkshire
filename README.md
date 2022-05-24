@@ -136,3 +136,4 @@ The live link is located at https://alexanderjward.github.io/ascend-yorkshire/
 
 
 ### Acknowledgments
+Social media links from love running

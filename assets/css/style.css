@@ -345,6 +345,15 @@ header img {
 
 @media screen and (max-width: 1250px) {
     
+    /* hero image */
+
+    /* hero image animation - Slow image pan from left to right */
+    
+    @keyframes hero-diagonal-move {
+        0%   {background-position: left bottom;}
+        100% {background-position: center center;}
+    }
+
     /* accommodation section */
 
     .accommodation-box {
