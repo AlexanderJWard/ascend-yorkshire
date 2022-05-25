@@ -111,6 +111,7 @@ header img {
     background-color: #37371F;
     color: #F4FFF8;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .welcome-section-heading {
@@ -123,23 +124,30 @@ header img {
 
 /* welcome section text */
 
-#welcome-section-text {
-    flex: 1;
+#welcome-section-text-one {
     display: flex;
+    flex: 1;
     flex-direction: column;
     margin: 1rem;
 }
 
-#welcome-section-text p {
-    margin: 0.5rem 0 0 0.5rem;
+#welcome-section-text-two {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem;
+}
+
+.welcome-text-box h3 {
+    color: #F4FFF8;
 }
 
 /* welcome section images */
 
 #welcome-section-images {
-    flex: 2;
-    flex-direction: column;
     display: flex;
+    flex: 1;
+    flex-direction: column;
     margin: 1rem;
 }
 
@@ -372,6 +380,7 @@ footer i {
 
     nav a {
         padding: 1rem 2rem;
+        margin-bottom: 0.5rem;
     }
 
 }
@@ -574,9 +583,7 @@ footer i {
 
     /* welcome section text */
 
-    #welcome-section-text p {
-        text-align: center;
-    }
+
 
     /* welcome section images */
 
