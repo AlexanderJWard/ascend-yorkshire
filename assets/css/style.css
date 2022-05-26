@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #37371F;
 }
 
+.right-align {
+    text-align: right;
+}
+
 /* header title & navigation links */
 
 header {
@@ -112,13 +116,17 @@ header img {
     color: #F4FFF8;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+#welcome-section h3 {
+    color: #F4FFF8;
 }
 
 .welcome-section-heading {
     color: #F4FFF8;
     font-size: 30px;
     margin-bottom: 0.5rem;
-    text-align: center;
     text-decoration: underline;
 }
 
@@ -126,29 +134,50 @@ header img {
 
 #welcome-section-text-one {
     display: flex;
-    flex: 1;
+    flex: 6;
     flex-direction: column;
+    justify-content: space-between;
     margin: 1rem;
+}
+
+#welcome-section-text-one h2, #welcome-section-text-two h2 {
+    margin-left: 2rem;
+}
+
+#welcome-section-text-one p, #welcome-section-text-two p {
+    margin: 1rem 0 1rem 2rem;
+    font-size: 20px;
 }
 
 #welcome-section-text-two {
     display: flex;
-    flex-direction: column;
     width: 100%;
     margin: 1rem;
+    padding-bottom: 5rem;
 }
 
-.welcome-text-box h3 {
-    color: #F4FFF8;
+#welcome-section-text-extend {
+    flex: 6;
+}
+
+#welcome-section-text-challenge {
+    flex: 4;
+    text-align: center;
+    margin-right: 2rem;
 }
 
 /* welcome section images */
 
 #welcome-section-images {
     display: flex;
-    flex: 1;
+    flex: 4;
     flex-direction: column;
+    justify-content: center;
     margin: 1rem;
+}
+
+#welcome-section-images h2 {
+    text-align: center;
 }
 
 #welcome-image-box {
@@ -164,6 +193,7 @@ header img {
 #welcome-image-box h3 {
     color: #F4FFF8;
     margin-bottom: 0.3rem;
+    text-align: center;
 }
 
 #welcome-image-box img {
@@ -262,7 +292,9 @@ header img {
     display: flex;
     flex-direction: column;
     flex: 1;
+    gap: 5rem;
     margin-left: 5rem;
+    margin-top: 2rem;
 }
 
 #parking-information {
@@ -348,11 +380,11 @@ footer i {
 
     /* welcome section images */
 
-    #welcome-image-box img {
+    /* #welcome-image-box img {
         height: 300px;
         width: 300px;
         border: 5px solid #F4FFF8;
-    }
+    } */
 
 }
 
@@ -396,6 +428,26 @@ footer i {
     @keyframes hero-diagonal-move {
         0%   {background-position: left bottom;}
         100% {background-position: center center;}
+    }
+
+    /* welcome section */
+
+    #welcome-section-text-one {
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    #welcome-section-text-two {
+        text-align: center;
+        gap: 5rem;
+    }
+
+    #welcome-section-text-extend {
+        flex: 1;
+    }
+    
+    #welcome-section-text-challenge {
+        flex: 1;
     }
 
     /* accommodation section */
@@ -460,6 +512,47 @@ footer i {
 
     #welcome-section {
         flex-direction: column;
+        gap: 3rem;
+    }
+
+    /* welcome section text */
+
+    #welcome-section-text-one {
+        padding: 0 2rem 1rem 2rem;
+        margin: 0;
+        gap: 3rem;
+    }
+
+    #welcome-section-text-two {
+        flex-direction: column;
+        padding: 0 0 3rem 0;
+        margin: 0;
+        gap: 3rem;
+    }
+
+    #welcome-section-images {
+        padding: 0;
+        margin: 0;
+    }
+
+    #welcome-section-text-one h2, #welcome-section-text-two h2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    #welcome-section-text-one p, #welcome-section-text-two p {
+        padding: 0;
+        margin: 0;
+    }
+
+    #welcome-section-text-extend {
+        text-align: left;
+        padding: 0 2rem;
+    }
+
+    #welcome-section-text-challenge {
+        text-align: right;
+        padding: 0 2rem;
     }
 
     /* welcome section images */
@@ -583,6 +676,26 @@ footer i {
 
     /* welcome section text */
 
+    #welcome-section-text-one h2 {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    #welcome-section-text-one p {
+        text-align: center;
+    }
+
+    #welcome-section-text-two h2 {
+        padding-bottom: 1rem;
+    }
+
+    #welcome-section-text-extend {
+        text-align: center;
+    }
+
+    #welcome-section-text-challenge {
+        text-align: center;
+    }
 
 
     /* welcome section images */
