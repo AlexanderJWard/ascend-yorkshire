@@ -302,25 +302,25 @@ header img {
 /* Images taken from booking.com */
 
 #accommodation-one-outer {
-    background-image: url(/assets/images/Crown.jpg);
+    background-image: url(../images/Crown.jpg);
     background-size: cover;
     background-repeat: no-repeat;
  }
 
 #accommodation-two-outer {
-    background-image: url(/assets/images/Dalecote.jpg);
+    background-image: url(../images/Dalecote.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #accommodation-three-outer {
-    background-image: url(/assets/images/Whoop.jpg);
+    background-image: url(../images/Whoop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #accommodation-four-outer {
-    background-image: url(/assets/images/NewInn.jpg);
+    background-image: url(../images/NewInn.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
