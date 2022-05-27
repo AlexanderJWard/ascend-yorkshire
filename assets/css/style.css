@@ -222,13 +222,22 @@ header img {
     width: 100%;
     font-size: 30px;
     text-align: center;
-    text-decoration: underline;
     background-color: #F4FFF8;
     padding: 1rem 0;
+    border-bottom: 5px solid #37371F;
 }
 
 #accommodation-section img {
     height: 100px;
+}
+
+#accommodation-section ul {
+    padding-left: 2rem;
+    list-style-type: circle;
+}
+
+#accommodation-section summary ~ p {
+    padding-left: 2rem;
 }
 
 .accommodation-box-outer {
@@ -243,7 +252,8 @@ header img {
     flex-wrap: wrap;
     gap: 1rem;
     background-color: rgba(244, 255, 248, 0.7);
-    border: 8px double #37371F;
+    border: 5px solid #37371F;
+    border-radius: 5px;
     margin: 3rem;
     padding: 2rem;
 }
@@ -252,7 +262,7 @@ header img {
     background-color: rgba(244, 255, 248, 1);
 }
 
-.accommodation-box > div {
+.accommodation-box-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
