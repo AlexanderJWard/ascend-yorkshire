@@ -439,16 +439,6 @@ footer i {
     100% {background-position: right top;}
     }
 
-    /* welcome section */
-
-    /* welcome section images */
-
-    /* #welcome-image-box img {
-        height: 300px;
-        width: 300px;
-        border: 5px solid #F4FFF8;
-    } */
-
 }
 
 /* media query for screen size 1400px and under */
@@ -539,8 +529,6 @@ footer i {
         gap: 3rem;
     }
 
-    
-
     /* welcome section images */
 
     #welcome-section-images {
@@ -552,7 +540,6 @@ footer i {
     #welcome-image-box {
         gap: 5rem;
     }
-
 
 }
 
@@ -580,6 +567,13 @@ footer i {
     #welcome-image-box h3 {
         text-align: center;
     }
+
+    /* accommodation section */
+
+    .accommodation-box-outer {
+        flex: 100%;
+        flex-direction: column;
+     }
 
     /* other information */
 
@@ -726,6 +720,13 @@ footer i {
 
     #welcome-image-box h3 {
         text-align: center;
+    }
+
+    /* accommodation section */
+
+    .accommodation-box {
+        margin: 0.5rem;
+        padding: 0.5rem;
     }
 
     /* other information */
