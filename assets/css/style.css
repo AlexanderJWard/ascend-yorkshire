@@ -240,7 +240,7 @@ header img {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    background-color: rgba(244, 255, 248, 0.8);
+    background-color: rgba(244, 255, 248, 0.7);
     border: 8px double #37371F;
     margin: 3rem;
     padding: 2rem;
@@ -250,8 +250,13 @@ header img {
     background-color: rgba(244, 255, 248, 1);
 }
 
-.accommodation-box h3 {
+.accommodation-box > div {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+}
+
+.accommodation-box h3 {
     font-size: 30px;
 }
 
@@ -263,7 +268,7 @@ header img {
     flex: 8;
 }
 
-.accommodation-box div {
+.accommodation-box p ~ div {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -280,13 +285,13 @@ header img {
 }
 
 #accommodation-one-outer {
-    background-image: url(/assets/images/pen-y-ghent.jpg);
+    background-image: url(/assets/images/Crown.jpg);
     background-size: cover;
     background-repeat: no-repeat;
  }
 
 #accommodation-two-outer {
-    background-image: url(/assets/images/Whernside.jpg);
+    background-image: url(/assets/images/Dalecote.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
