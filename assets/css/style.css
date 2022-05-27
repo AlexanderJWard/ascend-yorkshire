@@ -152,8 +152,8 @@ header img {
 #welcome-section-text-two {
     display: flex;
     width: 100%;
-    margin: 1rem;
     padding-bottom: 5rem;
+    align-items: center;
 }
 
 #welcome-section-text-extend {
@@ -162,8 +162,14 @@ header img {
 
 #welcome-section-text-challenge {
     flex: 4;
+}
+
+#welcome-section-text-challenge h2 {
     text-align: center;
-    margin-right: 2rem;
+}
+
+#welcome-section-text-challenge p {
+    padding-right: 2rem;
 }
 
 /* welcome section images */
@@ -205,63 +211,15 @@ header img {
 /* accommodation section */
 
 #accommodation-section {
-    background-color: #F4FFF8;
-    color: #37371F;
-    display: flex;
-    flex-direction: column;
-}
-
-#accommodation-section h2 {
-    width: 100%;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: underline;
-    margin-left: 1rem;
-}
-
-#accommodation-section img {
-    width: 150px;
-    height: 150px;
-    margin: 0.5rem;
-}
-
-.accommodation-box {
     display: flex;
     flex-wrap: wrap;
-    margin: 1rem;
 }
 
-.accommodation-box div {
-    flex: 1;
+#accommodation-section {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    border: 5px solid #37371F;
-    border-radius: 8px;
-    padding: 0.5rem;
-    margin: 1rem;
 }
 
-.accommodation-box h3 {
-    width: 100%;
-    font-size: 20px;
-    padding-left: 15rem;
-    margin-top: 1rem;
-}
-
-.accommodation-box p {
-    flex: 1;
-    margin: 1rem;
-}
-
-.accommodation-box hr {
-    border: none;
-}
-
-.accommodation-box ~ div h3 {
-    text-align: right;
-    padding-right: 15rem;
-}
 
 /* other information */
 
@@ -432,84 +390,6 @@ footer i {
 
     /* welcome section */
 
-    #welcome-section-text-one {
-        justify-content: center;
-        gap: 5rem;
-    }
-
-    #welcome-section-text-two {
-        text-align: center;
-        gap: 5rem;
-    }
-
-    #welcome-section-text-extend {
-        flex: 1;
-    }
-    
-    #welcome-section-text-challenge {
-        flex: 1;
-    }
-
-    /* accommodation section */
-
-    .accommodation-box {
-        flex-direction: column;
-    }
-
-    .accommodation-box div {
-        border: none;
-    }
-
-    .accommodation-box hr {
-        width: 80%;
-        align-self: center;
-        border: 1px solid #37371F;
-        background-color: #37371F;
-    }
-
-    .accommodation-box ~ div div {
-        border: none;
-    }
-
-    .accommodation-box ~ div h3 {
-        text-align: left;
-        padding-right: 0;
-        padding-left: 15rem;
-        order: 1;
-    }
-
-    .accommodation-box h3 {
-        text-align: left;
-        padding-right: 0;
-        padding-left: 15rem;
-        order: 1;
-    }
-
-    .accommodation-box p {
-        order: 3;
-    }
-
-    .accommodation-box img {
-        order: 2;
-    }
-
-}
-
-/* media query for screen size 950px and under */
-
-@media screen and (max-width: 950px) {
-
-    /* hero image */
-
-    /* hero image animation - Slow image pan from left to right */
-    
-    @keyframes hero-diagonal-move {
-        0%   {background-position: 0% 80%;}
-        100% {background-position: 50% 20%;}
-    }
-
-    /* welcome section */
-
     #welcome-section {
         flex-direction: column;
         gap: 3rem;
@@ -523,20 +403,8 @@ footer i {
         gap: 3rem;
     }
 
-    #welcome-section-text-two {
-        flex-direction: column;
-        padding: 0 0 3rem 0;
-        margin: 0;
-        gap: 3rem;
-    }
-
-    #welcome-section-images {
-        padding: 0;
-        margin: 0;
-    }
-
     #welcome-section-text-one h2, #welcome-section-text-two h2 {
-        padding: 0;
+        padding: 0 0 1rem 0;
         margin: 0;
     }
 
@@ -555,7 +423,54 @@ footer i {
         padding: 0 2rem;
     }
 
+    #welcome-section-text-challenge h2 {
+        text-align: right;
+    }
+
+    #welcome-section-text-two {
+        flex-direction: column;
+        padding: 0 0 3rem 0;
+        margin: 0;
+        gap: 3rem;
+    }
+
+    
+
     /* welcome section images */
+
+    #welcome-section-images {
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+
+    #welcome-image-box {
+        gap: 5rem;
+    }
+
+
+}
+
+/* media query for screen size 950px and under */
+
+@media screen and (max-width: 950px) {
+
+    /* hero image */
+
+    /* hero image animation - Slow image pan from left to right */
+    
+    @keyframes hero-diagonal-move {
+        0%   {background-position: 0% 80%;}
+        100% {background-position: 50% 20%;}
+    }
+
+    /* welcome section */
+
+    /* welcome section images */
+
+    #welcome-image-box {
+        gap: 2rem;
+    }
 
     #welcome-image-box h3 {
         text-align: center;
@@ -697,48 +612,15 @@ footer i {
         text-align: center;
     }
 
+    #welcome-section-text-challenge h2 {
+        text-align: center;
+    }
+
 
     /* welcome section images */
 
     #welcome-image-box h3 {
         text-align: center;
-    }
-
-    /* accommodation section */
-
-    .accommodation-box {
-        align-content: center;
-    }
-
-    .accommodation-box div {
-        align-items: flex-start;
-        flex-direction: column;
-        padding-bottom: 1rem;
-    }
-
-    .accommodation-box h3 {
-        text-align: center;
-        padding: 0;
-        order: 1;
-    }
-
-    .accommodation-box p {
-        text-align: center;
-        order: 2;
-    }
-
-    .accommodation-box img {
-        align-self: center;
-        order: 3;
-    }
-
-    .accommodation-box hr {
-        width: 60%;
-    }
-
-    .accommodation-box ~ div h3 {
-        text-align: center;
-        padding: 0;
     }
 
     /* other information */
