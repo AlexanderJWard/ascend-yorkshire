@@ -167,10 +167,12 @@ header img {
 
 #welcome-section-text-challenge h2 {
     text-align: center;
+    margin-left: 0;
 }
 
 #welcome-section-text-challenge p {
     padding-right: 2rem;
+    text-align: center;
 }
 
 /* welcome section images */
@@ -253,6 +255,7 @@ header img {
 .accommodation-box > div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
@@ -271,7 +274,7 @@ header img {
 .accommodation-box p ~ div {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
     width: 100%;
     color: #37371F;
 }
