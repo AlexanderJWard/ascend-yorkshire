@@ -241,7 +241,8 @@ header img {
 }
 
 .accommodation-box-outer {
-   width: 50%;
+   flex: 1 0 48%;
+   flex-wrap: wrap;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -264,6 +265,7 @@ header img {
 
 .accommodation-box-title {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -297,6 +299,8 @@ header img {
     border-top: 2px solid #37371F;
 }
 
+/* Images taken from booking.com */
+
 #accommodation-one-outer {
     background-image: url(/assets/images/Crown.jpg);
     background-size: cover;
@@ -310,13 +314,13 @@ header img {
 }
 
 #accommodation-three-outer {
-    background-image: url(/assets/images/Whernside.jpg);
+    background-image: url(/assets/images/Whoop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #accommodation-four-outer {
-    background-image: url(/assets/images/pen-y-ghent.jpg);
+    background-image: url(/assets/images/NewInn.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
