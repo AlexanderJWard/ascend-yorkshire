@@ -275,6 +275,10 @@ header img {
     font-size: 30px;
 }
 
+.accommodation-box p, .accommodation-box summary, .accommodation-box li {
+    font-size: 20px;
+}
+
 .accommodation-box img {
     flex: 2;
 }
@@ -325,71 +329,84 @@ header img {
     background-repeat: no-repeat;
 }
 
-
 /* other information */
 
 #other-information-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     background-color: #1F371F;
-    color: #F4FFF8;
-    padding-top: 1rem;
-}
-
-#other-information-section hr {
-    border: none;
+    align-items: center;
+    justify-content: center;
 }
 
 #other-information-section h2 {
     color: #F4FFF8;
-    font-size: 30px;
     text-decoration: underline;
+    font-size: 30px;
+    padding-bottom: 1rem;
 }
 
 #other-information-section p {
-    margin-top: 0.5rem;
+    color: #F4FFF8;
+    font-size: 20px;
 }
 
-#other-information {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    gap: 5rem;
-    margin-left: 5rem;
-    margin-top: 2rem;
+#food-drink {
+    flex: 1 0 46%;
+    padding: 2rem;
+}
+
+#toilets {
+    flex: 1 0 46%;
+    padding: 2rem;
 }
 
 #parking-information {
+    width: 60%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0 5rem;
     justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem 4rem 2rem;
+}
+
+#parking-text {
     flex: 1;
-    text-align: right;
-    margin-right: 5rem;
-    padding-left: 5rem;
+}
+
+#parking-image-outer {
+    height: 200px;
+    width: 300px;
+    flex: 1;
+}
+
+#parking-image-outer img {
+    height: 200px;
+    width: 300px;
+    border: 5px solid #F4FFF8;
+    border-radius: 8px;
 }
 
 #getting-here {
     display: flex;
-    justify-items: flex-end;
     flex-direction: column;
     width: 100%;
-    padding: 0;
 }
 
 #getting-here h2 {
-    padding: 0 0 1rem 5rem;
-    margin-top: 5rem;
-    align-self: flex-start;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#getting-here hr {
+    border-top: 3px solid #F4FFF8;
+    width: 80%;
+    margin-bottom: 2rem;
 }
 
 #getting-here iframe {
     width: 100%;
-}
-
-.other-information-box {
-    padding: 1rem 0 1rem 0;
 }
 
 /* footer */
@@ -541,6 +558,12 @@ footer i {
         gap: 5rem;
     }
 
+    /* other information section */
+
+    #parking-information {
+        width: 100%;
+    }
+
 }
 
 /* media query for screen size 950px and under */
@@ -575,64 +598,11 @@ footer i {
         flex-direction: column;
      }
 
-    /* other information */
-
-    #other-information-section {
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
-
-    #other-information-section hr {
-        align-self: center;
-        border: 1px solid #F4FFF8;
-        background-color: #F4FFF8;
-        width: 60%;
-    }
-
-    #other-information-section p {
-        padding: 0.5rem 7rem 1rem 7rem;
-    }
-
-    #other-information-section h2 {
-        padding-top: 0.5rem;
-        padding-left: 7rem;
-    }
-
-    #other-information {
-        margin: 0 1rem;
-        text-align: Left;
-    }
-
-    #toilets {
-        text-align: right;
-    }
-
-    #toilets h2 {
-        padding-right: 7rem;
-        padding-left: 0;
-    }
-
-    #toilets p {
-        padding-right: 7rem;
-        padding-left: 7rem;
-    }
+    /* other information section */
 
     #parking-information {
-        margin: 0 1rem;
-        text-align: Left;
-        padding: 1rem 0;
-    }
-
-    #getting-here {
-        text-align: Center;
-        margin: 1rem 0 0 0;
-        padding: 0;
-    }
-
-    #getting-here h2 {
-        padding-left: 0;
-        text-align: center;
-        align-self: center;
+        flex-direction: column;
+        gap: 3rem;
     }
 
 }
@@ -731,50 +701,6 @@ footer i {
 
     /* other information */
 
-    #other-information-section p {
-        padding: 1rem;
-        padding-bottom: 1rem;
-        text-align: center;
-    }
-
-    #other-information-section h2 {
-        padding-left: 0;
-        text-align: center;
-    }
-
-    #other-information {
-        text-align: center;
-    }
-
-    #toilets {
-        text-align: center;
-    }
-
-    #toilets h2 {
-        padding-right: 0;
-        padding-left: 0;
-        text-align: center;
-    }
-
-    #toilets p {
-        padding: 1rem;
-        text-align: center;
-    }
-
-    #parking-information {
-        margin: 0 1rem;
-        text-align: Left;
-    }
-
-    #getting-here {
-        text-align: Center;
-        margin: 1rem 0 0 0;
-        padding: 0;
-    }
-
-    #getting-here h2 {
-        padding-left: 0;
-    }
 
      /* footer */
 
