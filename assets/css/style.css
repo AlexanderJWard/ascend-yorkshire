@@ -460,6 +460,11 @@ footer i {
     padding: 2rem 4rem;
 }
 
+.list-box {
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
 /* pen-y-ghent */
 
 #walks-penyghent {
