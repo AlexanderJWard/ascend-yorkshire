@@ -554,8 +554,31 @@ footer i {
 
 #walks-threepeaks {
     background-color: #1F371F;
-    color: #F4FFF8;
 }
+
+#walks-threepeaks div {
+    display: flex;
+    justify-content: center;
+    padding: 10rem 0;
+}
+
+#walks-threepeaks a {
+    text-decoration: none;
+    text-align: center;
+}
+
+#walks-threepeaks h2 {
+    color: #F4FFF8;
+    font-size: 50px;
+    padding: 1rem;
+}
+
+#walks-threepeaks a:hover h2 {
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+
 
 /* media query for screen size 1900px and over */
 
