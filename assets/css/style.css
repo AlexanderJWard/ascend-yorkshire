@@ -341,14 +341,19 @@ header img {
 
 #other-information-section h2 {
     color: #F4FFF8;
-    text-decoration: underline;
     font-size: 30px;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 #other-information-section p {
     color: #F4FFF8;
     font-size: 20px;
+}
+
+#other-information-section hr {
+    margin-bottom: 1rem;
+    border: none;
+    border-top: 3px solid #F4FFF8;
 }
 
 #food-drink {
@@ -396,12 +401,11 @@ header img {
 
 #getting-here h2 {
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 #getting-here hr {
     border-top: 3px solid #F4FFF8;
-    width: 80%;
     margin-bottom: 2rem;
 }
 
