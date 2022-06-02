@@ -58,6 +58,9 @@ My secondary font is __Tillana__ which I picked as it's in keeping with the them
 
 ### Wireframes
 
+Wireframe created in Balsamiq and exported as PDF:
+
+[Ascend-Yorkshire-Wireframe.pdf](https://github.com/AlexanderJWard/ascend-yorkshire/files/8823256/Ascend-Yorkshire-Wireframe.pdf)
 
 ### Features
 
