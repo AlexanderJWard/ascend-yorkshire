@@ -521,9 +521,29 @@ footer i {
 /* ingleborough */
 
 #walks-ingleborough {
+    display: flex;
     background-color: #F4FFF8;
     color: #37371F;
+    border-bottom: 10px solid #37371F;
 }
+
+#walks-ingleborough img {
+    width: 40%;
+}
+
+#walks-ingleborough-text {
+    display: flex;
+    flex-grow: 1;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-left: 10px solid #37371F;
+}
+
+#walks-ingleborough .list-box {
+    border: 5px dotted #37371F;
+}
+
 
 /* three peaks */
 
