@@ -126,8 +126,6 @@ header img {
 .welcome-section-heading {
     color: #F4FFF8;
     font-size: 30px;
-    margin-bottom: 0.5rem;
-    text-decoration: underline;
 }
 
 /* welcome section text */
@@ -145,7 +143,9 @@ header img {
 }
 
 #welcome-section-text-one p, #welcome-section-text-two p {
-    margin: 1rem 0 1rem 2rem;
+    margin: 0.5rem 0 1rem 2rem;
+    border-top: 3px solid #F4FFF8;
+    padding-top: 0.5rem;
     font-size: 20px;
 }
 
@@ -171,7 +171,7 @@ header img {
 }
 
 #welcome-section-text-challenge p {
-    padding-right: 2rem;
+    margin-right: 2rem;
     text-align: center;
 }
 
@@ -445,18 +445,18 @@ footer i {
 
 /* walks.html */
 
-.walks-left h2, .walks-right h2 {
+.walks-section h2 {
     font-size: 30px;
     text-align: center;
     padding: 2rem 0;
 }
 
-.walks-left li, .walks-right li {
+.walks-section li {
     padding: 2rem 0.5rem;
     font-size: 20px;
 }
 
-.walks-left ul, .walks-right ul {
+.walks-section ul {
     padding: 2rem 4rem;
 }
 
@@ -663,6 +663,7 @@ footer i {
 
     #welcome-section-text-one p, #welcome-section-text-two p {
         padding: 0;
+        padding-top: 0.5rem;
         margin: 0;
     }
 
@@ -674,6 +675,10 @@ footer i {
     #welcome-section-text-challenge {
         text-align: right;
         padding: 0 2rem;
+    }
+
+    #welcome-section-text-challenge p {
+        text-align: right;
     }
 
     #welcome-section-text-challenge h2 {
@@ -819,6 +824,10 @@ footer i {
     }
 
     #welcome-section-text-challenge {
+        text-align: center;
+    }
+
+    #welcome-section-text-challenge p {
         text-align: center;
     }
 
