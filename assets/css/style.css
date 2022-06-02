@@ -443,6 +443,32 @@ footer i {
     color: #F4FFF8;
 }
 
+/* walks.html */
+
+/* pen-y-ghent */
+
+#walks-penyghent {
+    background-color: #F4FFF8;
+}
+
+/* whernside */
+
+#walks-whernside {
+    background-color: #37371F;
+}
+
+/* ingleborough */
+
+#walks-ingleborough {
+    background-color: #F4FFF8;
+}
+
+/* three peaks */
+
+#walks-threepeaks {
+    background-color: #1F371F;
+}
+
 /* media query for screen size 1900px and over */
 
 @media screen and (min-width: 1900px) {
