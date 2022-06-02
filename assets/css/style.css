@@ -445,28 +445,64 @@ footer i {
 
 /* walks.html */
 
+.walks-left img, .walks-right img {
+    height: 800px;
+}
+
+.walks-left h2, .walks-right h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.walks-left li, .walks-right li {
+    padding: 2rem 0.5rem;
+    font-size: 20px;
+}
+
+.walks-left ul, .walks-right ul {
+    padding: 2rem 4rem;
+}
+
 /* pen-y-ghent */
 
 #walks-penyghent {
+    display: flex;
     background-color: #F4FFF8;
+    color: #37371F;
+}
+
+#walks-penyghent-text {
+    display: flex;
+    flex-grow: 1;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#walks-penyghent .list-box {
+    border: 5px dotted #37371F;
 }
 
 /* whernside */
 
 #walks-whernside {
     background-color: #37371F;
+    color: #F4FFF8;
 }
 
 /* ingleborough */
 
 #walks-ingleborough {
     background-color: #F4FFF8;
+    color: #37371F;
 }
 
 /* three peaks */
 
 #walks-threepeaks {
     background-color: #1F371F;
+    color: #F4FFF8;
 }
 
 /* media query for screen size 1900px and over */
