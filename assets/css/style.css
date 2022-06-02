@@ -445,10 +445,6 @@ footer i {
 
 /* walks.html */
 
-.walks-left img, .walks-right img {
-    height: 800px;
-}
-
 .walks-left h2, .walks-right h2 {
     font-size: 30px;
     text-align: center;
@@ -470,6 +466,11 @@ footer i {
     display: flex;
     background-color: #F4FFF8;
     color: #37371F;
+    border-bottom: 10px solid #37371F;
+}
+
+#walks-penyghent img {
+    width: 60%;
 }
 
 #walks-penyghent-text {
@@ -478,6 +479,7 @@ footer i {
     align-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    border-left: 10px solid #37371F;
 }
 
 #walks-penyghent .list-box {
@@ -487,8 +489,33 @@ footer i {
 /* whernside */
 
 #walks-whernside {
+    display: flex;
     background-color: #37371F;
     color: #F4FFF8;
+    border-bottom: 10px solid #37371F;
+}
+
+#walks-whernside img {
+    order: 2;
+    width: 40%;
+    border-left: 10px solid #37371F;
+}
+
+#walks-whernside-text {
+    display: flex;
+    order: 1;
+    flex-grow: 1;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#walks-whernside h2 {
+    color: #F4FFF8;
+}
+
+#walks-whernside .list-box {
+    border: 5px dotted #F4FFF8;
 }
 
 /* ingleborough */
