@@ -458,6 +458,7 @@ footer i {
 
 .walks-section ul {
     padding: 2rem 4rem;
+    list-style: none;
 }
 
 .list-box {
@@ -597,6 +598,49 @@ footer i {
     100% {background-position: right top;}
     }
 
+}
+
+/* media query for screen size 1650px and under */
+
+@media screen and (max-width: 1650px) {
+
+    /* walks page */
+    
+    .walks-section li {
+        padding: 0.5rem 0rem;
+    }
+    
+    .walks-section ul {
+        padding: 2rem 2rem;
+    }
+    
+    .list-box {
+        width: 90%;
+    }
+
+    #walks-penyghent, #walks-whernside, #walks-ingleborough {
+        flex-direction: column;
+        border: 0;
+    }
+
+    #walks-penyghent h2, #walks-whernside h2, #walks-ingleborough h2 {
+        text-align: left;
+        padding-bottom: 0.5rem;
+    }
+    
+    #walks-penyghent img, #walks-whernside img, #walks-ingleborough img {
+        width: inherit;
+        border: none;
+        padding: 0;
+        order: 2;
+    }
+    
+    #walks-penyghent-text, #walks-whernside-text, #walks-ingleborough-text {
+        order: 1;
+        flex-grow: 0;
+        border: 0;
+    }
+    
 }
 
 /* media query for screen size 1400px and under */
@@ -873,6 +917,28 @@ footer i {
 
     footer i {
         font-size: 60px;
+    }
+
+    /* walks page */
+    
+    .walks-section li {
+        padding: 0.5rem 0.5rem;
+    }
+    
+    .walks-section ul {
+        padding: 0.5rem 0.5rem;
+    }
+    
+    .list-box {
+        width: 100%;
+    }
+
+    #walks-penyghent .list-box, #walks-whernside .list-box, #walks-ingleborough .list-box {
+        border: none;
+    }
+
+    #walks-penyghent h2, #walks-whernside h2, #walks-ingleborough h2 {
+        text-align: center;
     }
 
 }
