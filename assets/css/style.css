@@ -309,24 +309,28 @@ header img {
     background-image: url(../images/Crown.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
  }
 
 #accommodation-two-outer {
     background-image: url(../images/Dalecote.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #accommodation-three-outer {
-    background-image: url(../images/Whoop.jpg);
+    background-image: url(../images/whoophall.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #accommodation-four-outer {
     background-image: url(../images/NewInn.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* other information */
