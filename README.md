@@ -1,25 +1,28 @@
 # Ascend Yorkshire
 
-- Screenshot of logo/navigation of mobile deployed site
-- Include a link to deployed project with one line explanation of project
-
 ## Author
 Alexander Ward
 
 ## Project Overview
 
+Ascend Yorkshire is a website aimed to enlighten people of all ages interested in walking with new places to explore in the Yorkshire Dales. Pages provide essential information such as places to stay, distance and average time of each walk. Events are displayed clearly to help people group up and engage in a social walk. Sign up to be notified by email or text message about upcoming events.
+
+Ascend Yorkshire can be found at the following link: https://alexanderjward.github.io/ascend-yorkshire/
+
+http://ami.responsivedesign.is/ - After completion
 
 ## Table of Contents
 
+http://ecotrust-canada.github.io/markdown-toc/ - After completion
 
 ## UX
 
 
 ### Project Goals
 
+- Focusing on who this website is for, calling out demographics, what it is that they want to achieve and how your project is the best way to help them achieve these things. TO DO...
 
 ### Design Choices
-
 
 #### Colors
 
@@ -28,9 +31,8 @@ I've picked earthy colors that work well together to match my Ascend Yorkshire t
 - #37371F - Olive Drab
 - #F4FFF8 - Mint Cream
 - #1F371F - Phthalo Green
-- #F8F8F8 - Cultured (Contrast replacement)
-- #0F1A20 - Rich Black (Contrast replacement)
-
+- #F8F8F8 - Cultured (Possible contrast replacement)
+- #0F1A20 - Rich Black (Possible contrast replacement)
 
 ![image](https://user-images.githubusercontent.com/102811792/169293422-8e36411b-7468-44c2-85c5-164761951ce8.png)
 
