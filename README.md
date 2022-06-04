@@ -34,6 +34,10 @@ I've picked earthy colors that work well together to match my Ascend Yorkshire t
 - #F8F8F8 - Cultured (Possible contrast replacement)
 - #0F1A20 - Rich Black (Possible contrast replacement)
 
+![image](https://user-images.githubusercontent.com/102811792/172001155-349c1aae-9aa5-489a-a212-060f53978eac.png)
+
+Below are my color contrast tests on WebAIM:
+
 ![image](https://user-images.githubusercontent.com/102811792/169293422-8e36411b-7468-44c2-85c5-164761951ce8.png)
 
 ![image](https://user-images.githubusercontent.com/102811792/169293279-b391790b-3ced-4339-84d4-651b5a85c075.png)
@@ -54,6 +58,22 @@ My secondary font is __Tillana__ which I picked as it's in keeping with the them
 
 #### Images
 
+I've created a simple logo in keeping with the theme of Ascend Yorkshire that I think works well and is easily recognisable as a mountain range using the A from the website name. The logo is used both in the header and footer of Ascend Yorkshire on all pages.
+
+![image](https://user-images.githubusercontent.com/102811792/172003605-2e0fbbd1-e56a-4496-96e0-8780dd06d099.png)
+![image](https://user-images.githubusercontent.com/102811792/172003621-8265f53f-8868-4434-b180-591da0bd86d6.png)
+
+Images of the three peaks are used in the welcome section to show people what kind of walks to expect before even reading any text or scrolling down. The images are attributed in the code and included further down in the README using the Creative Commons License.
+
+![image](https://user-images.githubusercontent.com/102811792/172003646-181fc249-102a-40ba-8246-4fa564ad8fbc.png)
+
+Background images of all four hotels in the accommodation section are placed behind the text giving users a brief glimpse before visiting the site. Images are sourced directly from booking.com.
+
+![image](https://user-images.githubusercontent.com/102811792/172003724-30da8f59-043b-48db-a986-5aacbfbfd951.png)
+
+I used a generic image of parked cars giving the section something to break up paragraphs of text. The image used is a Creative Commons License and is attributed in the code and below in the README.
+
+![image](https://user-images.githubusercontent.com/102811792/172004391-f429af27-ba05-40ea-87d3-fbc5fa7aa6dc.png)
 
 #### Animations and Transitions
 
