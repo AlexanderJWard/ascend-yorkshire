@@ -77,6 +77,34 @@ I used a generic image of parked cars giving the section something to break up p
 
 #### Animations and Transitions
 
+Hero image animation which transitions the image from bottom left to top right. Ascending slowly over 30 seconds.
+![image](https://user-images.githubusercontent.com/102811792/172005547-f3715790-f90a-4a62-a70d-5c9c3b8d4292.png)
+
+![image](https://user-images.githubusercontent.com/102811792/172005572-0168ba07-1d85-4d90-b254-2c7e5f35302e.png)
+
+This changes on smaller screen sizes 650px and under to go from center bottom to center top as the previous animation was moving too quickly on the smaller screen.
+
+![image](https://user-images.githubusercontent.com/102811792/172005689-ff46a50e-dffa-4c2d-8ca1-ff34bea51dfa.png)
+
+![image](https://user-images.githubusercontent.com/102811792/172005707-90a0a7a5-a400-4947-b0b2-426d0e27d3fa.png)
+
+Hover effect on navigation links to invert the colours.
+
+![image](https://user-images.githubusercontent.com/102811792/172006392-6ad5287c-bee3-464b-a458-4c0e1c48821b.png)
+
+![image](https://user-images.githubusercontent.com/102811792/172006411-1d1fb669-fadd-44d3-8a24-4c8424811e74.png)
+
+Hover effect on the accommodation text to change opacity of background to make text more readable.
+
+![image](https://user-images.githubusercontent.com/102811792/172006479-353e4cf9-a72d-4289-993b-d2e70ed96b4f.png)
+
+![image](https://user-images.githubusercontent.com/102811792/172006506-89878839-549e-4f2c-810b-63f35f6ee1a6.png)
+
+Hover effect on the three peaks challenge link to make it larger and underlined.
+
+![image](https://user-images.githubusercontent.com/102811792/172006660-46a879c0-256b-4bc0-ab7a-3b9cf6fd14e6.png)
+
+![image](https://user-images.githubusercontent.com/102811792/172006704-94554493-6192-4855-b86a-2fd5806e267b.png)
 
 ### Wireframes
 
