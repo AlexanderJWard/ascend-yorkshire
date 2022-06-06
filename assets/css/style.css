@@ -204,13 +204,13 @@ header img {
     flex: 1;
     flex-direction: column;
     flex-wrap: wrap;
-    /* justify-content: center; */
     align-items: center;
     margin: 1rem;
 }
 
 #welcome-section-images h2 {
     text-align: center;
+    text-decoration: underline;
 }
 
 #welcome-image-box {
@@ -817,6 +817,13 @@ footer img {
         gap: 5rem;
     }
 
+    /* accommodation section */
+
+    .accommodation-box-outer {
+        flex: 100%;
+        flex-direction: column;
+    }
+
     /* other information section */
 
     #parking-information {
@@ -853,13 +860,6 @@ footer img {
 
     #welcome-image-box h3 {
         text-align: center;
-    }
-
-    /* accommodation section */
-
-    .accommodation-box-outer {
-        flex: 100%;
-        flex-direction: column;
     }
 
     /* other information section */
@@ -963,6 +963,10 @@ footer img {
 
     #welcome-image-box h3 {
         text-align: center;
+    }
+
+    #welcome-image-box {
+        gap: 0;
     }
 
     /* accommodation section */
