@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ascend Yorkshire is a website to help people find walks suitable for their abilities and timescales in the Yorkshire Dales.">
-    <meta name="keywords" content="walking, Yorkshire, Yorkshire Dales, hiking, three peaks, pen-y-ghent, ingleborough, whernside">
+    <meta name="description"
+        content="Ascend Yorkshire is a website to help people find walks suitable for their abilities and timescales in the Yorkshire Dales.">
+    <meta name="keywords"
+        content="walking, Yorkshire, Yorkshire Dales, hiking, three peaks, pen-y-ghent, ingleborough, whernside">
     <meta name="author" content="Alexander Ward">
     <title>Ascend Yorkshire</title>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -66,28 +70,45 @@
     </section>
     <section id="walks-threepeaks">
         <div>
-            <a href="#" aria-label="Opens in a new tab"><h2><i class="fa-solid fa-mountain"></i> Three Peaks Challenge!</h2></a>
+            <a href="#" aria-label="Opens in a new tab">
+                <h2><i class="fa-solid fa-mountain"></i> Three Peaks Challenge!</h2>
+            </a>
         </div>
     </section>
     <!-- Weather widgit from https://weatherwidget.io/ -->
     <section class="main-content">
-        <a class="weatherwidget-io" href="https://forecast7.com/en/54d14n2d29/horton-in-ribblesdale/" data-label_1="HORTON IN RIBBLESDALE" data-label_2="WEATHER" data-font="Open Sans" data-theme="original" data-basecolor="#F4FFF8" data-textcolor="#37371F" data-highcolor="#fb6932" data-lowcolor="#0069ff" data-mooncolor="#37371F" data-cloudcolor="#5d5d56" data-raincolor="#0069ff" data-snowcolor="#5d5d56" >HORTON IN RIBBLESDALE WEATHER</a>
+        <a class="weatherwidget-io" href="https://forecast7.com/en/54d14n2d29/horton-in-ribblesdale/"
+            data-label_1="HORTON IN RIBBLESDALE" data-label_2="WEATHER" data-font="Open Sans" data-theme="original"
+            data-basecolor="#F4FFF8" data-textcolor="#37371F" data-highcolor="#fb6932" data-lowcolor="#0069ff"
+            data-mooncolor="#37371F" data-cloudcolor="#5d5d56" data-raincolor="#0069ff" data-snowcolor="#5d5d56">HORTON
+            IN RIBBLESDALE WEATHER</a>
     </section>
     <footer>
-        <img src="assets/images/LogoWhite.png" alt="logo of two mountains">
-        <div>
-            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-square"></i></a>
-            <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i></a>
-            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram-square"></i></a>
-            <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube-square"></i></a>
+        <div class="logo-wrap">
+            <img src="assets/images/LogoWhite.png" alt="logo of two mountains">
         </div>
-        <img src="assets/images/LogoWhite-R.png" alt="logo of two mountains reversed">
+        <div id="footer-links">
+            <a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"><i
+                    class="fa-brands fa-facebook-square"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"><i
+                    class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener"
+                aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube-square"></i></a>
+        </div>
+        <div class="logo-wrap">
+            <img src="assets/images/LogoWhite-R.png" alt="logo of two mountains reversed">
+        </div>
     </footer>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/12183a849e.js" crossorigin="anonymous"></script>
     <!-- Weather widgit from https://weatherwidget.io/ -->
     <script>
-        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
     </script>
 </body>
+
 </html>

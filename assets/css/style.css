@@ -23,13 +23,16 @@ h6 {
     text-align: right;
 }
 
-.main-content, .walks-section, footer, header {
+.main-content,
+.walks-section,
+footer,
+header {
     max-width: 1650px;
     margin: 0 auto;
 }
 
 body {
-    background-color: tan;
+    background-color: #D4CB92;
 }
 
 /* header title & navigation links */
@@ -234,14 +237,15 @@ header img {
     text-align: center;
 }
 
-.img-wrap{
+.img-wrap {
     height: 200px;
     width: 200px;
 }
+
 #welcome-image-box img {
     width: 100%;
-    height:100%;
-    object-fit:cover;
+    height: 100%;
+    object-fit: cover;
     border: 5px solid #F4FFF8;
 }
 
@@ -425,7 +429,7 @@ header img {
 
 #parking-image-outer img {
     width: 100%;
-    height:100%;
+    height: 100%;
     object-fit: cover;
     border: 5px solid #F4FFF8;
     border-radius: 8px;
@@ -481,15 +485,15 @@ footer i {
     color: #F4FFF8;
 }
 
-.logo-wrap{
+.logo-wrap {
     height: 60px;
     width: 60px;
 }
 
 footer img {
     width: 100%;
-    height:100%;
-    object-fit:cover; 
+    height: 100%;
+    object-fit: cover;
 }
 
 /* walks.html */
@@ -628,7 +632,22 @@ footer img {
     font-size: 60px;
 }
 
+/* events page */
 
+#events {
+    display: flex;
+    height: 800px;
+}
+
+#events-form {
+    border: 1px solid red;
+    flex: 1;
+}
+
+#events-upcoming {
+    border: 1px solid red;
+    flex: 2;
+}
 
 /* media query for screen size 1900px and over */
 
