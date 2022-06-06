@@ -8,7 +8,12 @@
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Skranji, Tillana, sans-serif;
     font-weight: 400;
     color: #37371F;
@@ -16,6 +21,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .right-align {
     text-align: right;
+}
+
+.main-content, .walks-section, footer, header {
+    max-width: 1650px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: tan;
 }
 
 /* header title & navigation links */
@@ -51,14 +65,15 @@ nav a {
     font-family: Skranji, Tillana, sans-serif;
 }
 
-nav a:hover, .active {
+nav a:hover,
+.active {
     color: #37371F;
     background-color: #F4FFF8;
 }
 
 /* title */
 
-nav ~ div {
+nav~div {
     display: flex;
     flex-wrap: wrap;
     padding: 0.5rem 0;
@@ -105,8 +120,13 @@ header img {
 /* hero image animation - Slow image pan from left to right */
 
 @keyframes hero-diagonal-move {
-    0%   {background-position: left bottom;}
-    100% {background-position: right center;}
+    0% {
+        background-position: left bottom;
+    }
+
+    100% {
+        background-position: right center;
+    }
 }
 
 /* welcome section */
@@ -132,17 +152,19 @@ header img {
 
 #welcome-section-text-one {
     display: flex;
-    flex: 6;
+    flex: 1;
     flex-direction: column;
     justify-content: space-between;
     margin: 1rem;
 }
 
-#welcome-section-text-one h2, #welcome-section-text-two h2 {
+#welcome-section-text-one h2,
+#welcome-section-text-two h2 {
     margin-left: 2rem;
 }
 
-#welcome-section-text-one p, #welcome-section-text-two p {
+#welcome-section-text-one p,
+#welcome-section-text-two p {
     margin: 0.5rem 0 1rem 2rem;
     border-top: 3px solid #F4FFF8;
     padding-top: 0.5rem;
@@ -179,9 +201,11 @@ header img {
 
 #welcome-section-images {
     display: flex;
-    flex: 4;
+    flex: 1;
     flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
     margin: 1rem;
 }
 
@@ -191,12 +215,17 @@ header img {
 
 #welcome-image-box {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
 }
 
 #welcome-image-box div {
     margin: 0.5rem;
+}
+
+#welcome-image-box div {
+    margin: 1.5rem;
 }
 
 #welcome-image-box h3 {
@@ -205,9 +234,14 @@ header img {
     text-align: center;
 }
 
-#welcome-image-box img {
+.img-wrap{
     height: 200px;
     width: 200px;
+}
+#welcome-image-box img {
+    width: 100%;
+    height:100%;
+    object-fit:cover;
     border: 5px solid #F4FFF8;
 }
 
@@ -236,16 +270,16 @@ header img {
     list-style-type: circle;
 }
 
-#accommodation-section summary ~ p {
+#accommodation-section summary~p {
     padding-left: 2rem;
 }
 
 .accommodation-box-outer {
-   flex: 1 0 48%;
-   flex-wrap: wrap;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    flex: 1 0 48%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .accommodation-box {
@@ -275,7 +309,9 @@ header img {
     font-size: 30px;
 }
 
-.accommodation-box p, .accommodation-box summary, .accommodation-box li {
+.accommodation-box p,
+.accommodation-box summary,
+.accommodation-box li {
     font-size: 20px;
 }
 
@@ -287,7 +323,7 @@ header img {
     flex: 8;
 }
 
-.accommodation-box p ~ div {
+.accommodation-box p~div {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -299,7 +335,7 @@ header img {
     cursor: pointer;
 }
 
-.accommodation-box details ~ details {
+.accommodation-box details~details {
     border-top: 2px solid #37371F;
 }
 
@@ -310,7 +346,7 @@ header img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
- }
+}
 
 #accommodation-two-outer {
     background-image: url(../images/Dalecote.jpg);
@@ -435,7 +471,7 @@ footer img {
 
 /* social media links */
 
-footer div {
+#footer-links {
     display: flex;
     align-self: flex-end;
     gap: 4rem;
@@ -445,6 +481,17 @@ footer div {
 footer i {
     font-size: 50px;
     color: #F4FFF8;
+}
+
+.logo-wrap{
+    height: 60px;
+    width: 60px;
+}
+
+footer img {
+    width: 100%;
+    height:100%;
+    object-fit:cover; 
 }
 
 /* walks.html */
@@ -598,8 +645,13 @@ footer i {
     /* hero image animation - Slow image pan from left to right */
 
     @keyframes hero-diagonal-move {
-    0%   {background-position: left bottom;}
-    100% {background-position: right top;}
+        0% {
+            background-position: left bottom;
+        }
+
+        100% {
+            background-position: right top;
+        }
     }
 
 }
@@ -609,48 +661,56 @@ footer i {
 @media screen and (max-width: 1650px) {
 
     /* walks page */
-    
+
     .walks-section li {
         padding: 0.5rem 0rem;
     }
-    
+
     .walks-section ul {
         padding: 2rem 2rem;
     }
-    
+
     .list-box {
         width: 90%;
     }
 
-    #walks-penyghent, #walks-whernside, #walks-ingleborough {
+    #walks-penyghent,
+    #walks-whernside,
+    #walks-ingleborough {
         flex-direction: column;
         border: 0;
     }
 
-    #walks-penyghent h2, #walks-whernside h2, #walks-ingleborough h2 {
+    #walks-penyghent h2,
+    #walks-whernside h2,
+    #walks-ingleborough h2 {
         text-align: left;
         padding-bottom: 0.5rem;
     }
-    
-    #walks-penyghent img, #walks-whernside img, #walks-ingleborough img {
+
+    #walks-penyghent img,
+    #walks-whernside img,
+    #walks-ingleborough img {
         width: inherit;
         border: none;
         padding: 0;
         order: 2;
     }
-    
-    #walks-penyghent-text, #walks-whernside-text, #walks-ingleborough-text {
+
+    #walks-penyghent-text,
+    #walks-whernside-text,
+    #walks-ingleborough-text {
         order: 1;
         flex-grow: 0;
         border: 0;
     }
-    
+
 }
 
 /* media query for screen size 1400px and under */
 
 @media screen and (max-width: 1400px) {
-    
+
     /* header title & navigation links */
 
     header {
@@ -664,7 +724,7 @@ footer i {
         justify-content: center;
     }
 
-    nav ~ div {
+    nav~div {
         order: 1;
         width: 100%;
     }
@@ -679,14 +739,19 @@ footer i {
 /* media query for screen size 1250px and under */
 
 @media screen and (max-width: 1250px) {
-    
+
     /* hero image */
 
     /* hero image animation - Slow image pan from left to right */
-    
+
     @keyframes hero-diagonal-move {
-        0%   {background-position: left bottom;}
-        100% {background-position: center center;}
+        0% {
+            background-position: left bottom;
+        }
+
+        100% {
+            background-position: center center;
+        }
     }
 
     /* welcome section */
@@ -704,12 +769,14 @@ footer i {
         gap: 3rem;
     }
 
-    #welcome-section-text-one h2, #welcome-section-text-two h2 {
+    #welcome-section-text-one h2,
+    #welcome-section-text-two h2 {
         padding: 0 0 1rem 0;
         margin: 0;
     }
 
-    #welcome-section-text-one p, #welcome-section-text-two p {
+    #welcome-section-text-one p,
+    #welcome-section-text-two p {
         padding: 0;
         padding-top: 0.5rem;
         margin: 0;
@@ -767,10 +834,15 @@ footer i {
     /* hero image */
 
     /* hero image animation - Slow image pan from left to right */
-    
+
     @keyframes hero-diagonal-move {
-        0%   {background-position: 0% 80%;}
-        100% {background-position: 50% 20%;}
+        0% {
+            background-position: 0% 80%;
+        }
+
+        100% {
+            background-position: 50% 20%;
+        }
     }
 
     /* welcome section */
@@ -790,7 +862,7 @@ footer i {
     .accommodation-box-outer {
         flex: 100%;
         flex-direction: column;
-     }
+    }
 
     /* other information section */
 
@@ -819,11 +891,11 @@ footer i {
         height: 35px;
         margin-right: 17rem;
         position: absolute;
-    }    
+    }
 
     /* navigation links */
 
-    nav ~ div {
+    nav~div {
         order: 1;
         width: 100%;
         margin-left: 10%;
@@ -838,16 +910,21 @@ footer i {
     /* hero image */
 
     #hero-image-box {
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
-}
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+    }
 
     /* hero image animation - Slow image pan from left to right */
 
     @keyframes hero-diagonal-move {
-        0%   {background-position: 50% 80%;}
-        100% {background-position: 50% 20%;}
+        0% {
+            background-position: 50% 80%;
+        }
+
+        100% {
+            background-position: 50% 20%;
+        }
     }
 
     /* welcome section */
@@ -855,12 +932,12 @@ footer i {
     /* welcome section text */
 
     #welcome-section-text-one h2 {
-        text-align: center;
+        text-align: left;
         padding-bottom: 1rem;
     }
 
     #welcome-section-text-one p {
-        text-align: center;
+        text-align: left;
     }
 
     #welcome-section-text-two h2 {
@@ -868,19 +945,19 @@ footer i {
     }
 
     #welcome-section-text-extend {
-        text-align: center;
+        text-align: left;
     }
 
     #welcome-section-text-challenge {
-        text-align: center;
+        text-align: left;
     }
 
     #welcome-section-text-challenge p {
-        text-align: center;
+        text-align: left;
     }
 
     #welcome-section-text-challenge h2 {
-        text-align: center;
+        text-align: left;
     }
 
 
@@ -900,7 +977,7 @@ footer i {
     /* other information */
 
 
-     /* footer */
+    /* footer */
 
     footer {
         height: 6rem;
@@ -911,7 +988,7 @@ footer i {
         width: 0;
     }
 
-     /* social media links  */
+    /* social media links  */
 
     footer div {
         align-self: center;
@@ -924,24 +1001,28 @@ footer i {
     }
 
     /* walks page */
-    
+
     .walks-section li {
         padding: 0.5rem 0.5rem;
     }
-    
+
     .walks-section ul {
         padding: 0.5rem 0.5rem;
     }
-    
+
     .list-box {
         width: 100%;
     }
 
-    #walks-penyghent .list-box, #walks-whernside .list-box, #walks-ingleborough .list-box {
+    #walks-penyghent .list-box,
+    #walks-whernside .list-box,
+    #walks-ingleborough .list-box {
         border: none;
     }
 
-    #walks-penyghent h2, #walks-whernside h2, #walks-ingleborough h2 {
+    #walks-penyghent h2,
+    #walks-whernside h2,
+    #walks-ingleborough h2 {
         text-align: center;
     }
 
