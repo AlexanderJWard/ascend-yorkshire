@@ -375,8 +375,6 @@ header img {
     display: flex;
     flex-wrap: wrap;
     background-color: #1F371F;
-    align-items: center;
-    justify-content: center;
 }
 
 #other-information-section h2 {
@@ -423,12 +421,12 @@ header img {
 #parking-image-outer {
     height: 200px;
     width: 300px;
-    flex: 1;
 }
 
 #parking-image-outer img {
-    height: 200px;
-    width: 300px;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
     border: 5px solid #F4FFF8;
     border-radius: 8px;
 }
