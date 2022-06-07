@@ -638,6 +638,13 @@ footer img {
     display: flex;
 }
 
+#events-upcoming {
+    flex: 3;
+    background-color: #F4FFF8;
+}
+
+/* form section */
+
 #events-form {
     flex: 2;
     background-color: #37371F;
@@ -645,7 +652,7 @@ footer img {
 }
 
 #events-form h2 {
-    font-size: 30px;
+    font-size: 36px;
     color: #F4FFF8;
     padding-left: 3rem;
     margin-top: 2rem;
@@ -653,15 +660,10 @@ footer img {
 }
 
 #events-form h3 {
-    font-size: 26px;
+    font-size: 30px;
     color: #F4FFF8;
     padding-left: 3rem;
     margin-bottom: 2rem;
-}
-
-#events-upcoming {
-    flex: 3;
-    background-color: #F4FFF8;
 }
 
 #events-form {
@@ -673,7 +675,8 @@ form {
     padding: 0 3rem 3rem 3rem;
 }
 
-form legend {
+form h4 {
+    color: #F4FFF8;
     font-family: Skranji, Tillana, sans-serif;
     font-size: 26px;
 }
@@ -698,7 +701,8 @@ form p {
     width: auto;
 }
 
-.form-table label, form p {
+.form-table label,
+form p {
     display: inline-block;
     width: 150px;
     margin-left: 2rem;
@@ -708,6 +712,7 @@ form p {
 #flex-form-gender {
     display: flex;
     margin-bottom: 2rem;
+    margin-right: 2rem;
 }
 
 #flex-form-gender-input {
@@ -715,15 +720,18 @@ form p {
     margin-bottom: 1rem;
 }
 
-.form-radio label, #form-radio-other label[for="post-radio-other"] {
+.form-radio label,
+#form-radio-other label[for="post-radio-other"] {
     font-size: 20px;
 }
 
-.form-radio input, #post-radio-other {
+.form-radio input,
+#post-radio-other {
     margin-left: 1rem;
 }
 
-.form-radio, #form-radio-other {
+.form-radio,
+#form-radio-other {
     display: inline-block;
 }
 
@@ -733,7 +741,8 @@ form p {
     margin-bottom: 2rem;
 }
 
-#form-submit, #form-reset {
+#form-submit,
+#form-reset {
     width: 100px;
     height: 50px;
     font-size: 20px;
@@ -758,6 +767,8 @@ form p {
     border: 2px solid #37371F;
     color: #37371F;
 }
+
+/* events page image */
 
 /* Image by Tim Hill https://pixabay.com/photos/cry-stone-walls-yorkshire-dales-2451428/ */
 
@@ -945,6 +956,23 @@ form p {
         width: 100%;
     }
 
+    /* events page */
+
+    #events {
+        flex-direction: column;
+    }
+
+    /* form section */
+
+    #events-form {
+        order: 2;
+    }
+
+    /* upcoming events section */
+
+    #events-upcoming {
+        order: 1;
+    }
 }
 
 /* media query for screen size 950px and under */
@@ -1107,10 +1135,9 @@ form p {
 
     /* social media links  */
 
-    footer div {
+    #footer-links {
+        gap: 1.5rem;
         align-self: center;
-        gap: 2rem;
-        padding-bottom: 0;
     }
 
     footer i {
@@ -1141,6 +1168,48 @@ form p {
     #walks-whernside h2,
     #walks-ingleborough h2 {
         text-align: center;
+    }
+
+    /* events page */
+
+    .form-table input {
+        margin-left: 3rem;
+    }
+
+    form {
+        padding: 0;
+    }
+
+    form h4 {
+        text-decoration: underline;
+        margin-left: 3rem;
+    }
+
+    form legend,
+    form fieldset {
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #flex-form-gender {
+        flex-direction: column;
+    }
+
+    #flex-form-gender-input {
+        margin-left: 3rem;
+    }
+
+    .form-table label,
+    form p {
+        display: block;
+        margin-left: 3rem;
+        font-size: 20px;
+    }
+
+    .form-radio input,
+    #post-radio-other {
+        margin: 0;
     }
 
 }
