@@ -647,14 +647,15 @@ footer img {
 #events-form h2 {
     font-size: 30px;
     color: #F4FFF8;
-    padding-left: 2rem;
+    padding-left: 3rem;
     margin-top: 2rem;
+    text-decoration: underline;
 }
 
 #events-form h3 {
     font-size: 26px;
     color: #F4FFF8;
-    padding-left: 2rem;
+    padding-left: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -669,7 +670,7 @@ footer img {
 }
 
 form {
-    padding: 0.5rem 3rem;
+    padding: 0 3rem 3rem 3rem;
 }
 
 form legend {
@@ -707,10 +708,6 @@ form p {
 #flex-form-gender {
     display: flex;
     margin-bottom: 2rem;
-}
-
-#flex-form-gender p {
-
 }
 
 #flex-form-gender-input {
@@ -762,6 +759,15 @@ form p {
     color: #37371F;
 }
 
+/* Image by Tim Hill https://pixabay.com/photos/cry-stone-walls-yorkshire-dales-2451428/ */
+
+#events-image {
+    background-image: url(../images/yorkshire-dales.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
 
 /* media query for screen size 1650px and under */
 
