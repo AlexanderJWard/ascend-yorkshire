@@ -636,17 +636,31 @@ footer img {
 
 #events {
     display: flex;
-    height: 800px;
 }
 
 #events-form {
-    border: 1px solid red;
-    flex: 1;
+    flex: 2;
+    background-color: #37371F;
+    color: #F4FFF8;
+}
+
+#events-form h2 {
+    font-size: 30px;
+    color: #F4FFF8;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+
+#events-form h3 {
+    font-size: 26px;
+    color: #F4FFF8;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
 }
 
 #events-upcoming {
-    border: 1px solid red;
-    flex: 2;
+    flex: 3;
+    background-color: #F4FFF8;
 }
 
 #events-form {
@@ -655,45 +669,99 @@ footer img {
 }
 
 form {
-    padding: 2rem;
+    padding: 0.5rem 3rem;
 }
 
-#events-form div {
-    padding: 0 2rem;
+form legend {
+    font-family: Skranji, Tillana, sans-serif;
+    font-size: 26px;
 }
 
 fieldset {
+    border: 3px solid #F4FFF8;
+}
+
+form p {
+    margin-left: 1rem;
+}
+
+.form-table {
+    margin: 1rem 0;
+}
+
+.form-table input {
+    width: 200px;
+}
+
+#post-age {
+    width: auto;
+}
+
+.form-table label, form p {
+    display: inline-block;
+    width: 150px;
+    margin-left: 2rem;
+    font-size: 20px;
+}
+
+#flex-form-gender {
     display: flex;
-    flex-direction: column;
+    margin-bottom: 2rem;
 }
 
-input {
-    width: 50%;
-}
-
-/* media query for screen size 1900px and over */
-
-@media screen and (min-width: 1900px) {
-
-    /* hero image */
-
-    #hero-image {
-        background-size: cover;
-    }
-
-    /* hero image animation - Slow image pan from left to right */
-
-    @keyframes hero-diagonal-move {
-        0% {
-            background-position: left bottom;
-        }
-
-        100% {
-            background-position: right top;
-        }
-    }
+#flex-form-gender p {
 
 }
+
+#flex-form-gender-input {
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
+
+.form-radio label, #form-radio-other label[for="post-radio-other"] {
+    font-size: 20px;
+}
+
+.form-radio input, #post-radio-other {
+    margin-left: 1rem;
+}
+
+.form-radio, #form-radio-other {
+    display: inline-block;
+}
+
+#form-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+#form-submit, #form-reset {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #37371F;
+    border-radius: 8px;
+    border: 2px solid #F4FFF8;
+    color: #F4FFF8;
+}
+
+#form-reset {
+    font-weight: bold;
+}
+
+#form-submit:hover {
+    background-color: #F4FFF8;
+    border: 2px solid #37371F;
+    color: #37371F;
+}
+
+#form-reset:hover {
+    background-color: #D4CB92;
+    border: 2px solid #37371F;
+    color: #37371F;
+}
+
 
 /* media query for screen size 1650px and under */
 

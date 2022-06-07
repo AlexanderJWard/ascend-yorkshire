@@ -28,24 +28,63 @@
     </header>
     <section class="main-content" id="events">
         <div id="events-form">
-            <div>
-                <h2>Sign Up</h2>
-                <h3>To be notified of latest events</h3>
-            </div>
+            <h2>Sign Up</h2>
+            <h3>To be notified of latest events</h3>
             <form method="post" action="https://formdump.codeinstitute.net">
                 <fieldset>
                     <legend>Contact Information</legend>
-                    <label class="form-label" for="post-first-name">First Name:</label>
-                    <input id="post-first-name" type="text" name="first-name" required>
-                    <label class="form-label" for="post-last-name">Last Name:</label>
-                    <input id="post-last-name" type="text" name="last-name" required>
-                    <label class="form-label" for="post-date-of-birth">Date of birth:</label>
-                    <input id="post-age" type="date" name="date-of-birth" required>
+                    <div class="form-table">
+                        <label for="post-first-name">First Name:</label>
+                        <input id="post-first-name" type="text" name="first-name" required>
+                    </div>
+                    <div class="form-table">
+                        <label for="post-last-name">Last Name:</label>
+                        <input id="post-last-name" type="text" name="last-name" required>
+                    </div>
+                    <div class="form-table">
+                        <label for="post-date-of-birth">Date of birth:</label>
+                        <input id="post-age" type="date" name="date-of-birth" required>
+                    </div>
+                    <div class="form-table">
+                        <label for="post-email">Email Address:</label>
+                        <input id="post-email" type="email" name="email-address" required>
+                    </div>
+                    <div class="form-table">
+                        <label for="post-phone">Mobile Number:</label>
+                        <input id="post-phone" type="tel" name="mobile-number">
+                    </div>
+                    <div id="flex-form-gender">
+                        <p>Gender:</p>
+                        <div id="flex-form-gender-input">
+                            <div class="form-radio">
+                                <input id="post-radio-male" type="radio" name="gender" value="male" required>
+                                <label for="post-radio-male">Male</label>
+                            </div>
+                            <div class="form-radio">
+                                <input id="post-radio-female" type="radio" name="gender" value="female">
+                                <label for="post-radio-female">Female</label>
+                            </div>
+                            <div id="form-radio-other">
+                                <input id="post-radio-other" type="radio" name="gender" value="other">
+                                <label for="post-radio-other">Other</label>
+                                <input id="post-radio-other-input" type="text" name="gender-other">
+                                <label for="post-radio-other-input"></label>
+                            </div>
+                            <div class="form-radio">
+                                <input id="post-radio-not-say" type="radio" name="gender" value="not-say">
+                                <label for="post-radio-not-say">Prefer not to say</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="form-buttons">
+                        <button id="form-submit" type="submit"><strong>Submit</strong></button>
+                        <input id="form-reset" type="reset" value="Reset">
+                    </div>
                 </fieldset>
             </form>
         </div>
         <div id="events-upcoming">
-            
+
         </div>
     </section>
     <footer>
