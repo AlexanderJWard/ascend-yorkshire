@@ -785,6 +785,28 @@ form p {
     height: 600px;
 }
 
+/* form thank you page */
+
+#thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #F4FFF8;
+    padding: 13rem 0;
+}
+
+#thank-you h2 {
+    font-size: 40px;
+    padding: 0 1rem;
+}
+
+#thank-you p {
+    font-size: 30px;
+    text-align: center;
+    padding: 0 1rem;
+}
+
 /* media query for screen size 1650px and under */
 
 @media screen and (max-width: 1650px) {
@@ -1232,4 +1254,15 @@ form p {
         margin: 0;
     }
 
+    /* form thank you page */
+    
+    #thank-you h2 {
+        font-size: 30px;
+        padding: 0 1rem;
+    }
+    
+    #thank-you p {
+        font-size: 20px;
+        padding: 0 1rem;
+    }
 }
