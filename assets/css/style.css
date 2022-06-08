@@ -25,6 +25,7 @@ h6 {
 
 .main-content,
 .walks-section,
+#walks-threepeaks,
 footer,
 header {
     max-width: 1650px;
@@ -178,7 +179,6 @@ header img {
     display: flex;
     width: 100%;
     padding-bottom: 5rem;
-    align-items: center;
     gap: 1rem;
 }
 
@@ -191,13 +191,13 @@ header img {
 }
 
 #welcome-section-text-challenge h2 {
-    text-align: center;
-    margin-left: 0;
+    text-align: left;
+    margin-left: 2rem;
 }
 
 #welcome-section-text-challenge p {
     margin-right: 2rem;
-    text-align: center;
+    text-align: left;
 }
 
 /* welcome section images */
@@ -213,22 +213,21 @@ header img {
 
 #welcome-section-images h2 {
     text-align: center;
-    text-decoration: underline;
+    border-bottom: 3px solid #F4FFF8;
+    padding-bottom: 0.5rem;
+
 }
 
 #welcome-image-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem;
+    justify-content: left;
+    gap: 0;
+    margin: 0 1.2rem;
 }
 
 #welcome-image-box div {
     margin: 0.5rem;
-}
-
-#welcome-image-box div {
-    margin: 1.5rem;
 }
 
 #welcome-image-box h3 {
@@ -279,21 +278,22 @@ header img {
 }
 
 .accommodation-box-outer {
-    flex: 1 0 48%;
     flex-wrap: wrap;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    border-bottom: 3px solid #F4FFF8;
 }
 
 .accommodation-box {
     display: flex;
     flex-wrap: wrap;
+    width: 70%;
     gap: 1rem;
     background-color: rgba(244, 255, 248, 0.7);
     border: 5px solid #37371F;
     border-radius: 5px;
-    margin: 3rem;
+    margin: 5rem 0;
     padding: 2rem;
 }
 
@@ -349,6 +349,7 @@ header img {
     background-image: url(../images/crown.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
 }
 
@@ -356,6 +357,7 @@ header img {
     background-image: url(../images/dalecote.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
 }
 
@@ -363,14 +365,17 @@ header img {
     background-image: url(../images/whoophall.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: bottom center;
 }
 
 #accommodation-four-outer {
     background-image: url(../images/new-inn.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: bottom center;
+    border: none;
 }
 
 /* other information */
@@ -629,7 +634,6 @@ footer img {
 
 #walks-threepeaks a:hover h2 {
     text-decoration: underline;
-    font-size: 60px;
 }
 
 /* events page */
@@ -912,16 +916,16 @@ form p {
     }
 
     #welcome-section-text-challenge {
-        text-align: right;
+        text-align: left;
         padding: 0 2rem;
     }
 
     #welcome-section-text-challenge p {
-        text-align: right;
+        text-align: left;
     }
 
     #welcome-section-text-challenge h2 {
-        text-align: right;
+        text-align: left;
     }
 
     #welcome-section-text-two {
@@ -941,13 +945,6 @@ form p {
 
     #welcome-image-box {
         gap: 5rem;
-    }
-
-    /* accommodation section */
-
-    .accommodation-box-outer {
-        flex: 100%;
-        flex-direction: column;
     }
 
     /* other information section */
@@ -998,12 +995,15 @@ form p {
     /* welcome section images */
 
     #welcome-image-box {
-        gap: 2rem;
+        justify-content: center;
+        gap: 0;
     }
 
     #welcome-image-box h3 {
         text-align: center;
     }
+
+    
 
     /* other information section */
 
@@ -1117,9 +1117,23 @@ form p {
     .accommodation-box {
         margin: 0.5rem;
         padding: 0.5rem;
+        width: auto;
+    }
+
+    #accommodation-two-outer {
+        background-image: url(../images/dalecote.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 30% 50%;
     }
 
     /* other information */
+
+    #parking-image-outer {
+        height: 150px;
+        width: 250px;
+    }
 
 
     /* footer */
@@ -1142,6 +1156,11 @@ form p {
 
     footer i {
         font-size: 60px;
+    }
+
+    .logo-wrap {
+        height: 0;
+        width: 0;
     }
 
     /* walks page */
