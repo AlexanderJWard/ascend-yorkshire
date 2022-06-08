@@ -8,8 +8,27 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&family=Tillana:wght@500;700&display=swap');
 
+    /* generic */
+
+    * {
+      font-family: Tillana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: Skranji, Tillana, sans-serif;
+      font-weight: 400;
+      color: #37371F;
+    }
+
     body {
-      background-color: #37371F;
+      background-color: #D4CB92;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -17,100 +36,262 @@
       align-items: center;
     }
 
+    .main-content,
+    footer,
+    header {
+      max-width: 1650px;
+      margin: 0 auto;
+    }
+
+    /* header title & navigation links */
+
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #37371F;
+      width: 100%;
+      justify-content: flex-start;
+    }
+
+    /* navigation links */
+
+    nav {
+      display: flex;
+      padding: 0.5rem 0;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    nav a {
+      border: 2px solid #F4FFF8;
+      border-radius: 8px;
+      padding: 0.5rem 2rem;
+      margin: 0 1rem;
+      text-decoration: none;
+      background-color: #37371F;
+      color: #F4FFF8;
+      font-weight: 700;
+      font-size: 20px;
+      font-family: Skranji, Tillana, sans-serif;
+    }
+
+    nav a:hover,
+    .active {
+      color: #37371F;
+      background-color: #F4FFF8;
+    }
+
+    /* title */
+
+    nav~div {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0.5rem 0;
+      width: 65%;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
     h1 {
       color: #F4FFF8;
-      font-family: Skranji, Tillana, sans-serif;
-      font-weight: 400;
-      font-size: 100px;
-      margin: 0;
-      padding-top: 1.5rem;
+      font-size: 60px;
+      margin-top: 1rem;
+      position: absolute;
     }
 
-    #title img {
-      height: 120px;
+    header img {
+      height: 60px;
+      margin-right: 33rem;
     }
 
-    #title {
+    /* 404 section */
+
+    section {
       display: flex;
-      margin-top: 20rem;
+      gap: 5rem;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+      background-color: #F4FFF8;
     }
 
-    a {
-      color: #F4FFF8;
-      font-family: Tillana, sans-serif;
-      font-size: 40px;
+    #error-text {
       text-align: center;
+      margin-top: 10rem;
     }
 
-    i {
-      font-size: 100px;
+    #error-text a {
+      font-size: 40px;
+      font-family: Skranji, Tillana, sans-serif;
+      color: #37371F;
+      text-decoration: none;
+    }
+
+    #error-text a:hover {
+      text-decoration: underline;
+    }
+
+    #error-img {
+      display: flex;
+      justify-content: center;
+      height: 400px;
+      width: 600px;
+      margin-bottom: 10rem;
+    }
+
+    #error-img img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border: 10px solid #37371F;
+    }
+
+    /* footer */
+
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 5rem;
+      background-color: #37371F;
+      gap: 0.2rem;
+      width: 100%;
+    }
+
+    footer img {
+      height: 60px;
+      width: 60px;
+    }
+
+    /* social media links */
+
+    #footer-links {
+      display: flex;
+      align-self: flex-end;
+      gap: 4rem;
+      padding-bottom: 0.4rem;
+    }
+
+    footer i {
+      font-size: 50px;
       color: #F4FFF8;
     }
 
-    #jpg {
-      margin-top: 2rem;
-      width: 40rem;
-      border: 5px solid #F4FFF8;
+    .logo-wrap {
+      height: 60px;
+      width: 60px;
     }
 
-    /* media query for screen size 1250px and under */
-    @media screen and (max-width: 1250px) {
-      h1 {
-        font-size: 50px;
-        padding-top: 0.5rem;
+    footer img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* media query for screen size 1400px and under */
+
+    @media screen and (max-width: 1400px) {
+
+      /* header title & navigation links */
+
+      header {
+        justify-content: center;
       }
 
-      #text {
-        width: 80%;
-        text-align: center;
+      /* navigation links */
+
+      nav {
+        order: 2;
+        justify-content: center;
       }
 
-      #text a {
-        font-size: 20px;
+      nav~div {
+        order: 1;
+        width: 100%;
       }
 
-      i {
-        font-size: 50px;
+      nav a {
+        padding: 1rem 2rem;
+        margin-bottom: 0.5rem;
       }
 
-      #title img {
-        height: 60px;
-      }
-
-      #jpg {
-        width: 30rem;
-      }
     }
 
     /* media query for screen size 650px and under */
+
     @media screen and (max-width: 650px) {
+
+      /* header title & navigation links */
+
+      /* title */
+
       h1 {
+        position: inherit;
+        margin-top: 0.5rem;
         font-size: 30px;
       }
 
-      #text {
-        padding-top: 1rem;
+      header img {
+        height: 35px;
+        margin-right: 17rem;
+        position: absolute;
       }
 
-      #text a {
+      /* navigation links */
+
+      nav~div {
+        order: 1;
+        width: 100%;
+        margin-left: 10%;
+      }
+
+      nav a {
+        padding: 1rem 1rem;
+        margin: 0 0.5rem 0.5rem 0.5rem;
         font-size: 16px;
       }
 
-      i {
+      /* 404 section */
+
+      #error-text a {
         font-size: 30px;
       }
 
-      #title {
-        margin-top: 10rem;
+      #error-img {
+        height: 200px;
+        width: 300px;
+        margin-bottom: 5rem;
       }
 
-      #title img {
-        height: 40px;
+      /* footer */
+
+      footer {
+        height: 6rem;
       }
 
-      #jpg {
-        width: 20rem;
+      footer img {
+        height: 0;
+        width: 0;
       }
+
+      /* social media links  */
+
+      #footer-links {
+        gap: 1.5rem;
+        align-self: center;
+      }
+
+      footer i {
+        font-size: 60px;
+      }
+
+      .logo-wrap {
+        height: 0;
+        width: 0;
+      }
+
     }
   </style>
 </head>
@@ -128,38 +309,36 @@
     </div>
   </header>
   <section class="main-content">
-    <div id="title">
-      <i class="fa-solid fa-person-falling"></i>
-      <img src="assets/images/logo-white.png" alt="logo of two mountains">
-      <h1>Ascend Yorkshire</h1>
-    </div>
-    <div id="text">
+    <div id="error-text">
       <a href="https://alexanderjward.github.io/ascend-yorkshire/"
-        aria-label="closing current page and opening Ascend Yorkshire home page">You've climbed the wrong peak! Click to
+        aria-label="closing current page and opening Ascend Yorkshire home page"><i
+          class="fa-solid fa-person-falling"></i> You've climbed the wrong peak!<br>Click to
         return home.</a>
     </div>
-    <img id="jpg" src="assets/images/pen-y-ghent.jpg">
-    <!-- font awesome script -->
-    <script src="https://kit.fontawesome.com/12183a849e.js" crossorigin="anonymous"></script>
-    <footer>
-      <div class="logo-wrap">
-        <img src="assets/images/logo-white.png" alt="logo of two mountains">
-      </div>
-      <div id="footer-links">
-        <a href="https://facebook.com" target="_blank" rel="noopener"
-          aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-square"></i></a>
-        <a href="https://twitter.com" target="_blank" rel="noopener"
-          aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i></a>
-        <a href="https://instagram.com" target="_blank" rel="noopener"
-          aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram-square"></i></a>
-        <a href="https://youtube.com" target="_blank" rel="noopener"
-          aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube-square"></i></a>
-      </div>
-      <div class="logo-wrap">
-        <img src="assets/images/logo-white-reverse.png" alt="logo of two mountains reversed">
-      </div>
+    <div id="error-img">
+      <img src="assets/images/pen-y-ghent.jpg" alt="Picture of the mountain Pen-y-ghent in the Yorkshire Dales">
+    </div>
   </section>
+  <footer>
+    <div class="logo-wrap">
+      <img src="assets/images/logo-white.png" alt="logo of two mountains">
+    </div>
+    <div id="footer-links">
+      <a href="https://facebook.com" target="_blank" rel="noopener"
+        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-square"></i></a>
+      <a href="https://twitter.com" target="_blank" rel="noopener"
+        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i></a>
+      <a href="https://instagram.com" target="_blank" rel="noopener"
+        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram-square"></i></a>
+      <a href="https://youtube.com" target="_blank" rel="noopener"
+        aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube-square"></i></a>
+    </div>
+    <div class="logo-wrap">
+      <img src="assets/images/logo-white-reverse.png" alt="logo of two mountains reversed">
+    </div>
   </footer>
+  <!-- font awesome script -->
+  <script src="https://kit.fontawesome.com/12183a849e.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
