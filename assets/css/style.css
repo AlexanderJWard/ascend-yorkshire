@@ -184,6 +184,7 @@ header img {
 
 #welcome-section-text-extend {
     flex: 6;
+    padding-left: 1rem;
 }
 
 #welcome-section-text-challenge {
