@@ -773,6 +773,12 @@ form p {
     color: #37371F;
 }
 
+/* upcoming events */
+
+#events-upcoming {
+    display: flex;
+}
+
 /* events page image */
 
 /* Image by Tim Hill https://pixabay.com/photos/cry-stone-walls-yorkshire-dales-2451428/ */
