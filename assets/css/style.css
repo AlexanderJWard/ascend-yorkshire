@@ -874,7 +874,6 @@ form p {
     padding: 0 2rem;
 }
 
-
 /* events page image */
 
 /* Image by Tim Hill https://pixabay.com/photos/cry-stone-walls-yorkshire-dales-2451428/ */
@@ -885,6 +884,32 @@ form p {
     background-repeat: no-repeat;
     background-position: center;
     height: 600px;
+}
+
+/* three peaks challenge page */
+
+#walks-challenge {
+    display: flex;
+    background-color: #F4FFF8;
+    color: #37371F;
+    border-bottom: 10px solid #37371F;
+}
+
+#walks-challenge img {
+    width: 60%;
+}
+
+#walks-challenge-text {
+    display: flex;
+    flex-grow: 1;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-left: 10px solid #37371F;
+}
+
+#walks-challenge .list-box {
+    border: 5px dotted #37371F;
 }
 
 /* form thank you page */
@@ -927,6 +952,7 @@ form p {
         width: 90%;
     }
 
+    #walks-challenge,
     #walks-penyghent,
     #walks-whernside,
     #walks-ingleborough {
@@ -934,6 +960,7 @@ form p {
         border: 0;
     }
 
+    #walks-challenge h2,
     #walks-penyghent h2,
     #walks-whernside h2,
     #walks-ingleborough h2 {
@@ -941,6 +968,7 @@ form p {
         padding-bottom: 0.5rem;
     }
 
+    #walks-challenge img,
     #walks-penyghent img,
     #walks-whernside img,
     #walks-ingleborough img {
@@ -950,6 +978,7 @@ form p {
         order: 2;
     }
 
+    #walks-challenge-text,
     #walks-penyghent-text,
     #walks-whernside-text,
     #walks-ingleborough-text {
