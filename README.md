@@ -234,6 +234,14 @@ When the 404 page is displayed there is the same header and footer to keep consi
 
 - __Events Page__
 
+![image](https://user-images.githubusercontent.com/102811792/172947178-84149aa4-5486-43a5-81b5-d7c5c16b379f.png)
+
+- __Thank You Page__
+
+![image](https://user-images.githubusercontent.com/102811792/172947431-e16b62d9-0b50-41e9-a97b-6f8915286610.png)
+
+- __404 Page__
+
 
 
 
