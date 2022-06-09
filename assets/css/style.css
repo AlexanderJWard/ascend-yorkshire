@@ -644,7 +644,7 @@ footer img {
     display: flex;
 }
 
-#events-upcoming {
+#events-content {
     flex: 3;
     background-color: #F4FFF8;
 }
@@ -776,9 +776,104 @@ form p {
 
 /* upcoming events */
 
-#events-upcoming {
+#events-content {
     display: flex;
+    flex-direction: column;
+    background-color: #F4FFF8;
 }
+
+#upcoming-events, #special-events {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 2rem;
+    padding: 2rem 0;
+    margin: 0 2rem;
+}
+
+#events-content h2 {
+    font-size: 36px;
+    color: #37371F;
+    border-bottom: 3px solid #37371F;
+    padding-bottom: 0.5rem;
+}
+
+.outer-events-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: flex-start;
+}
+
+.events-box {
+    display: flex;
+    align-items: center;
+    border: 5px solid #37371F;
+    border-radius: 8px;
+    height: 200px;
+    width: auto;
+}
+
+#special-events .events-box {
+    height: 300px;
+}
+
+.events-pen-y-ghent {
+    background-image: url(../images/pen-y-ghent-dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.events-whernside {
+    background-image: url(../images/whernside-dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.events-ingleborough {
+    background-image: url(../images/ingleborough-dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.events-ribblehead-left {
+    background-image: url(../images/hero-image-dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.events-ribblehead-center {
+    background-image: url(../images/hero-image-dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.events-ribblehead-right {
+    background-image: url(../images/hero-image-dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.events-box li {
+    font-family: Skranji, Tillana, sans-serif;
+    color: #F4FFF8;
+    font-size: 20px;
+}
+
+.events-box ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0 2rem;
+}
+
 
 /* events page image */
 

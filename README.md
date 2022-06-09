@@ -100,7 +100,7 @@ Hover effect on the accommodation text to change opacity of background to make t
 
 ![image](https://user-images.githubusercontent.com/102811792/172006506-89878839-549e-4f2c-810b-63f35f6ee1a6.png)
 
-Hover effect on the three peaks challenge link to make it larger and underlined.
+Hover effect on the three peaks challenge link to make it underlined.
 
 ![image](https://user-images.githubusercontent.com/102811792/172006660-46a879c0-256b-4bc0-ab7a-3b9cf6fd14e6.png)
 
