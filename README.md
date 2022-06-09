@@ -226,6 +226,15 @@ When the 404 page is displayed there is the same header and footer to keep consi
 
 - __Walks Page__
 
+![image](https://user-images.githubusercontent.com/102811792/172945766-9bea22a1-b90a-4ef8-8f61-6561773f338f.png)
+
+- __Three Peaks Challenge Page__
+
+![image](https://user-images.githubusercontent.com/102811792/172945864-a3ecd477-a1ba-4a09-aac6-8161f3944c42.png)
+
+- __Events Page__
+
+
 
 
 ### Cross Browser and Cross Device Testing
