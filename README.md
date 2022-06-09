@@ -19,7 +19,7 @@ http://ecotrust-canada.github.io/markdown-toc/ - After completion
 
 ### Project Goals
 
-The website is for people of all ages interested in walking in the coutryside, the aim is to introduce people to what kind of walks are avaliable in the Yorkshire Dales and to make it as accessible as possible by providing information on a variety of essential topics. By showing events and letting users sign up to be notified brings like minded people together for walks they might have otherwise undertaken alone. There is also a challenge for more experienced hikers on offer with information on distance and average completion time avaliable.
+The website is for people of all ages interested in walking in the countryside, the aim is to introduce people to what kind of walks are avaliable in the Yorkshire Dales and to make it as accessible as possible by providing information on a variety of essential topics. By showing events and letting users sign up to be notified brings like minded people together for walks they might have otherwise undertaken alone. There is also a challenge for more experienced hikers on offer with information on distance and average completion time avaliable.
 
 ### Design Choices
 
