@@ -920,18 +920,24 @@ form p {
     background-color: #37371F;
 }
 
-#challenge-stages h2, #challenge-stages h2, {
+.challenge-image {
+    width: 70%;
+    align-self: center;
+}
+
+#challenge-stages h2, #challenge-stages h3 {
     color: #F4FFF8;
     font-size: 30px;
     padding: 2rem 0;
     text-align: center;
 }
 
-#challenge-stages h3 {
-    color: #F4FFF8;
-    font-size: 30px;
-    padding: 2rem 0;
-    text-align: center;
+#challenge-stages h2 {
+    text-decoration: underline;
+}
+
+#challenge-stages #stage-one {
+    padding: 0 0 2rem 0;
 }
 
 /* form thank you page */
@@ -1146,6 +1152,16 @@ form p {
     #events-upcoming {
         order: 1;
     }
+
+    /* three peaks challenge page */
+
+    /* challenge stages section */
+
+    .challenge-image {
+        width: 100%;
+        align-self: center;
+    }
+
 }
 
 /* media query for screen size 950px and under */
@@ -1353,12 +1369,14 @@ form p {
         width: 100%;
     }
 
+    #walks-challenge .list-box,
     #walks-penyghent .list-box,
     #walks-whernside .list-box,
     #walks-ingleborough .list-box {
         border: none;
     }
 
+    #walks-challenge h2,
     #walks-penyghent h2,
     #walks-whernside h2,
     #walks-ingleborough h2 {
