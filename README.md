@@ -9,7 +9,7 @@ Ascend Yorkshire is a website aimed to enlighten people of all ages interested i
 
 Ascend Yorkshire can be found at the following link: https://alexanderjward.github.io/ascend-yorkshire/
 
-http://ami.responsivedesign.is/ - After completion
+![image](https://user-images.githubusercontent.com/102811792/172921918-c6764198-c85f-45ba-9e4a-c0a7ebb435c9.png)
 
 ## Table of Contents
 
@@ -17,10 +17,9 @@ http://ecotrust-canada.github.io/markdown-toc/ - After completion
 
 ## UX
 
-
 ### Project Goals
 
-- Focusing on who this website is for, calling out demographics, what it is that they want to achieve and how your project is the best way to help them achieve these things. TO DO...
+The website is for people of all ages interested in walking in the coutryside, the aim is to introduce people to what kind of walks are avaliable in the Yorkshire Dales and to make it as accessible as possible by providing information on a variety of essential topics. By showing events and letting users sign up to be notified brings like minded people together for walks they might have otherwise undertaken alone. There is also a challenge for more experienced hikers on offer with information on distance and average completion time avaliable.
 
 ### Design Choices
 
@@ -75,6 +74,15 @@ I used a generic image of parked cars giving the section something to break up p
 
 ![image](https://user-images.githubusercontent.com/102811792/172004391-f429af27-ba05-40ea-87d3-fbc5fa7aa6dc.png)
 
+The walks page and three peaks challenge page contain images of Google Maps routes for visitors to reference if needed when on the related walk.
+
+![image](https://user-images.githubusercontent.com/102811792/172941408-c1451037-80db-4f93-8f77-0ee8dfccc85e.png)
+
+Events page contains an eye catching image under the form and upcoming events to bring the page to life with color and showing aspects of what to expect when walking in the area.
+
+![image](https://user-images.githubusercontent.com/102811792/172941982-301e2dc2-317e-4cdd-86c5-9f037d54b969.png)
+
+
 #### Animations and Transitions
 
 Hero image animation which transitions the image from bottom left to top right. Ascending slowly over 30 seconds.
@@ -114,15 +122,101 @@ Wireframe created in Balsamiq and exported as PDF:
 
 ### Features
 
-
 #### Implemented Features
+
+- __Navigation bar__
+
+The nav bar is featured at the top of all pages and contains the logo, title and links to the home page, walks page and events page. This bar is the exact same on all pages and changes on smaller screen sizes for a better viewing experience.
+
+![image](https://user-images.githubusercontent.com/102811792/172923695-b0e6c800-cc7e-4889-a9c8-0da2b2dcb665.png)
+
+![image](https://user-images.githubusercontent.com/102811792/172923774-5c426b46-9672-453a-a8a5-86306a601d38.png)
+
+- __Hero Image__
+
+The hero image is a photograph capturing the breathtaking views that can be experienced on these walks. It's placed right at the top so any visitor to the website will see this image first and get a feel for what they can expect from walks in the Yorkshire Dales.
+
+![image](https://user-images.githubusercontent.com/102811792/172924643-9b935241-7a97-4a17-a126-6a52b8c16a5e.png)
+
+- __Welcome Section__
+
+This section gives visitors a quick taste of each of the Three Peaks and some reasons why to visit the area. This gives visitors the confidence that the area is popular and there are plenty of places to stay overnight if required. Mobile screen size changes adjacent paragraphs and images into a column format.
+
+![image](https://user-images.githubusercontent.com/102811792/172925987-c99df30e-1606-4e3a-87f3-a2aef6c788cd.png)
+
+- __Accommodation Section__
+
+Useful information for visitors looking for a longer stay in the region. Showing a few examples of hotels to stay for both small and large groups. The background image shows a brief look at the outside of each hotel so visitors can judge straight away if it's somewhere suitable. On mobile the text box fills more of the screen to be easily readable on small screen sizes.
+
+![image](https://user-images.githubusercontent.com/102811792/172926761-87d33934-9c32-4924-831d-0a9dff511b77.png)
+
+- __Other Information__
+
+Giving visitors useful extra information including where to park, places to grab food or drink when walking and toilet locations to give peace of mind for first time visitors to the area. Just like the welcome section on mobile the paragraphs are changed into a column format on the smaller screen sizes.
+
+![image](https://user-images.githubusercontent.com/102811792/172927762-301ae039-af33-495d-8b76-6db301e3a576.png)
+
+- __Google Map__
+
+Just before the footer there is an interactive Google Maps showing the main village of Horton in Ribblesdale to not only inform where in the UK the walks are but also an easy way to get directions straight there.
+
+![image](https://user-images.githubusercontent.com/102811792/172928210-ae14ecfb-625a-42c7-ab8a-9b751c97c837.png)
+
+- __Footer__
+
+The footer includes the Ascend Yorkshire logo as well as social media links for Twitter, Youtube, Instagram and Youtube. This allows visitors quick access to chosen social media site to view pictures of the area and learn of new events taking place. Footer is on all pages and increases the size and reduces the gap on smaller screen sizes to make links easier to click or tap.
+
+![image](https://user-images.githubusercontent.com/102811792/172928743-be383c02-3294-437b-911d-f95efdcbe018.png)
+
+![image](https://user-images.githubusercontent.com/102811792/172928800-0534ba5a-819a-4356-bb44-21c15dd2e24a.png)
+
+- __Walks Page__
+
+This page contains a selection of walks in the Yorkshire Dales and includes a map of the route from Google Maps and also some relevant information including distance and average time of completion. Information and images changes to a column format on smaller screen sizes including mobile and tablet.
+
+![image](https://user-images.githubusercontent.com/102811792/172934647-9ea4a566-66e3-4f24-b1c7-3db8252632b1.png)
+
+- __Weather Widgit__
+
+The weather widgit gives visitors an immediate visual clue to what the weather is going to be like over the next week in Horton in Ribblesdale. Saves the visitor time from having to research this elsewhere before making a decision on a date to visit. The widgit wraps to look presentable on any screen size.
+
+![image](https://user-images.githubusercontent.com/102811792/172935204-c668b02f-130f-4eaa-b557-0cc376802fb3.png)
+
+- __Three Peaks Challenge Page__
+
+Similar to the walks page this one focuses on the extreme challenge of all three peaks in one go. There is listed information such as distance and average time just like the individual walks however this page features close up stages of the route shown in Google Maps images. Like the walks page the content shifts into a column for mobile and tablet.
+
+![image](https://user-images.githubusercontent.com/102811792/172936077-07b94e9b-f863-4fb0-9b37-f7254dca2d70.png)
+
+![image](https://user-images.githubusercontent.com/102811792/172936034-09fa9043-5e28-44ff-9e05-5b713bc9ffd1.png)
+
+- __Events Page__
+
+There is a form where visitors can sign up to get notifications of upcoming events by email and or mobile phone SMS. The events themselves are displayed in individual boxes, each showing differnt organised events at different peaks during different days and times. Also there are special events which are unique such as three peaks challenge, time trial fel runs or charity fundraising. Finally the page has another awe inspiring image from the Yorkshire Dales to keep the page attractive even if seen in the visitors peripheral vision. On small screen sizes everything is put into a column and the events are displayed first followed by the sign up form and lastly the image.
+
+![image](https://user-images.githubusercontent.com/102811792/172937405-623f194a-0989-49e1-b11d-7e4fd1f7fd41.png)
+
+- __Thank You Page__
+
+The thank you page is displayed when submitting the form to acknowledge the data has been sent, the visitor then knows this has been submitted and is not left guessing after clicking submit. This page also contains the header and footer to keep within the theme of the website and keep things familiar.
+
+![image](https://user-images.githubusercontent.com/102811792/172940085-de8d8b7a-85a3-499e-bc18-2594edc2c649.png)
+
+- __404 Page__
+
+When the 404 page is displayed there is the same header and footer to keep consistant with all other pages. There is also a link to click to return to the home page of Ascend Yorkshire as well as an image from one of the peaks to reassure visitors this is related to the actual website.
+
+![image](https://user-images.githubusercontent.com/102811792/172939180-4007be3c-1cdb-4d50-933f-8bec8185fd67.png)
+
 
 
 #### Future Features
 
+- Events page contains a scrolling calendar of all future events that can be scrolled left or right.
+
+- Gallery of photos taken by people taking part in group events.
 
 ## Testing
-
 
 ### Validation Testing
 
