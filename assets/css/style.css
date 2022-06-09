@@ -611,7 +611,7 @@ footer img {
 }
 
 
-/* three peaks */
+/* three peak link section */
 
 #walks-threepeaks {
     background-color: #1F371F;
@@ -910,6 +910,28 @@ form p {
 
 #walks-challenge .list-box {
     border: 5px dotted #37371F;
+}
+
+/* challenge stages section */
+
+#challenge-stages {
+    display: flex;
+    flex-direction: column;
+    background-color: #37371F;
+}
+
+#challenge-stages h2, #challenge-stages h2, {
+    color: #F4FFF8;
+    font-size: 30px;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#challenge-stages h3 {
+    color: #F4FFF8;
+    font-size: 30px;
+    padding: 2rem 0;
+    text-align: center;
 }
 
 /* form thank you page */
