@@ -782,7 +782,8 @@ form p {
     background-color: #F4FFF8;
 }
 
-#upcoming-events, #special-events {
+#upcoming-events,
+#special-events {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -925,7 +926,8 @@ form p {
     align-self: center;
 }
 
-#challenge-stages h2, #challenge-stages h3 {
+#challenge-stages h2,
+#challenge-stages h3 {
     color: #F4FFF8;
     font-size: 30px;
     padding: 2rem 0;
@@ -1195,7 +1197,7 @@ form p {
         text-align: center;
     }
 
-    
+
 
     /* other information section */
 
@@ -1426,12 +1428,12 @@ form p {
     }
 
     /* form thank you page */
-    
+
     #thank-you h2 {
         font-size: 30px;
         padding: 0 1rem;
     }
-    
+
     #thank-you p {
         font-size: 20px;
         padding: 0 1rem;
