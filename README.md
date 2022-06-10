@@ -246,7 +246,19 @@ HTML Validation from validator.w3.org
 
 ![image](https://user-images.githubusercontent.com/102811792/172948231-7e635c0f-790d-4397-b478-77721c4bfb68.png)
 
+CSS Validation from jigsaw.w3.org/css-validator/validator#css
 
+- __Home Page__
+
+![image](https://user-images.githubusercontent.com/102811792/173060236-cb7653c1-8e15-49c2-b051-9d520e1bd6ec.png)
+
+![image](https://user-images.githubusercontent.com/102811792/173060285-de319c7f-ad12-4409-8137-5a0ebe3ad5e4.png)
+
+- __404 Page__
+
+![image](https://user-images.githubusercontent.com/102811792/173061306-8e4161e3-e831-4a54-9754-1241b9db4d76.png)
+
+![image](https://user-images.githubusercontent.com/102811792/173061387-22b70dfb-b995-4e21-b722-b17fbff56b0f.png)
 
 ### Cross Browser and Cross Device Testing
 
