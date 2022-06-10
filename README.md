@@ -220,6 +220,8 @@ When the 404 page is displayed there is the same header and footer to keep consi
 
 ### Validation Testing
 
+HTML Validation from validator.w3.org
+
 - __Home Page__
 
 ![image](https://user-images.githubusercontent.com/102811792/172944566-4d52e15e-661e-41c1-8251-dfbc3c430b66.png)
@@ -242,6 +244,7 @@ When the 404 page is displayed there is the same header and footer to keep consi
 
 - __404 Page__
 
+![image](https://user-images.githubusercontent.com/102811792/172948231-7e635c0f-790d-4397-b478-77721c4bfb68.png)
 
 
 
