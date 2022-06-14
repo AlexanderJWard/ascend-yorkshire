@@ -114,6 +114,13 @@ Hover effect on the three peaks challenge link to make it underlined.
 
 ![image](https://user-images.githubusercontent.com/102811792/172006704-94554493-6192-4855-b86a-2fd5806e267b.png)
 
+Hover effect on reset button and submit button of form to visually show they can be interacted. Reset button has different color scheme to make it differ from the submit.
+
+![image](https://user-images.githubusercontent.com/102811792/173548370-40705cb3-77e1-4ca9-b61e-354e926e09e9.png)
+
+![image](https://user-images.githubusercontent.com/102811792/173548425-754f5f5b-97c2-483a-9b41-d6ac466cb761.png)
+
+
 ### Wireframes
 
 Wireframe created in Balsamiq and exported as PDF:
