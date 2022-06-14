@@ -13,7 +13,38 @@ Ascend Yorkshire can be found at the following link: https://alexanderjward.gith
 
 ## Table of Contents
 
-http://ecotrust-canada.github.io/markdown-toc/ - After completion
+- [Ascend Yorkshire](#ascend-yorkshire)
+  * [Author](#author)
+  * [Project Overview](#project-overview)
+  * [Table of Contents](#table-of-contents)
+  * [UX](#ux)
+    + [Project Goals](#project-goals)
+    + [Design Choices](#design-choices)
+      - [Colors](#colors)
+      - [Typography](#typography)
+      - [Images](#images)
+      - [Animations and Transitions](#animations-and-transitions)
+    + [Wireframes](#wireframes)
+    + [Features](#features)
+      - [Implemented Features](#implemented-features)
+      - [Future Features](#future-features)
+  * [Testing](#testing)
+    + [Validation Testing](#validation-testing)
+    + [Cross Browser and Cross Device Testing](#cross-browser-and-cross-device-testing)
+    + [Manual Testing](#manual-testing)
+    + [Defect Tracking](#defect-tracking)
+    + [Defects of Note](#defects-of-note)
+    + [Outstanding Defects](#outstanding-defects)
+  * [Accessibility](#accessibility)
+    + [Lighthouse Audits](#lighthouse-audits)
+    + [Keyboard Navigation](#keyboard-navigation)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+    + [Acknowledgments](#acknowledgments)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## UX
 
