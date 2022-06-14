@@ -323,12 +323,15 @@ Steps to test the form validation on the events page.
 
 ### Defect Tracking
 
+Defects tracked via GitHub issues which can be viewed here: https://github.com/AlexanderJWard/ascend-yorkshire/issues
 
 ### Defects of Note
 
+I struggled early on in the development to move the logo I created close enough to the h1 title that I thought looked best. I spent quite a bit of time learning about relative and absolute positions before achieving the end result after some trial and error. This issue can be found here: https://github.com/AlexanderJWard/ascend-yorkshire/issues/2
 
 ### Outstanding Defects
 
+One outstanding defect is on the home page accommodation section with the background images of each hotel. These images are set to cover so the image does get zoomed when going past 1800px screen size. This is a very small niche user case issue as it looks fine on the majority of viewpoints and even when the image does zoom it still looks okay, I would just rather the image stay at it's max size without zooming. I have a max width of the website at around 1600px so ideally the images need to not zoom past that max viewpoint.
 
 ## Accessibility
 
