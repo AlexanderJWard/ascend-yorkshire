@@ -345,6 +345,7 @@ One outstanding defect is on the home page accommodation section with the backgr
 
 ### Keyboard Navigation
 
+I've tested the ability to navigate each page by using Tab and Enter key. This works as expected and the links are selected in order and in the correct direction from top to bottom.
 
 ## Deployment
 
@@ -379,9 +380,92 @@ The live link is located at https://alexanderjward.github.io/ascend-yorkshire/
 
 ### Content
 
+__General__
+
+- Multiple icons used throughout have been taken from Font Awesome's free collection. Here is the link source:
+
+https://fontawesome.com/search?m=free
+
+- Footer social media links and alt text have been taken from the Love Running project.
+
+__Home Page__
+
+- Paragraph text taken from Booking.com for each hotel I listed in the accommodation section. Here are the link sources:
+
+https://www.booking.com/hotel/gb/the-crown-settle1.en-gb.html
+
+https://www.booking.com/hotel/gb/dalecote-barn-bed-amp-breakfast.en-gb.html
+
+https://www.booking.com/hotel/gb/the-whoop-hall.en-gb.html
+
+https://www.booking.com/hotel/gb/newinnhotel.en-gb.html
+
+__Walks Page__
+
+- Weather Widgit taken from https://weatherwidget.io/
+
+![image](https://user-images.githubusercontent.com/102811792/173595796-d5926a28-8210-4b60-b45a-c649db8c4213.png)
 
 ### Media
 
+__Home Page__
+
+- Hero image is attributed to Tim Hill and I have downloaded from pixabay. Here is the link source:
+
+https://pixabay.com/users/timhill-5727184/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2443093
+
+- Image of Pen-y-ghent is attributed to George Hodan and has been downloaded from Public Domain Pictures. Here is the link source:
+
+https://www.publicdomainpictures.net/en/view-image.php?image=214238&picture=view-to-and-from-pen-y-ghent
+
+- Image of Whernside is attributed to Cyberdemon007 and has been downlaoded from Wikipedia Commons. Here is the link source:
+
+https://commons.wikimedia.org/wiki/File:Whernside_and_Ribblehead_Viaduct.jpg
+
+- Image of Ingleborough is attributed to Nilfanion and has been downloaded from Wikipedia Commons. Here is the link source:
+
+https://commons.wikimedia.org/wiki/File:Ingleborough_(7603).jpg
+
+- Images of hotels used as background images in accommodation section have been taken from booking.com. As my accommodation content is directly linking the booking.com page I have decided to use a picture from their website to advertise it at attribute the source. Here are the link sources:
+
+https://www.booking.com/hotel/gb/the-crown-settle1.en-gb.html
+
+https://www.booking.com/hotel/gb/dalecote-barn-bed-amp-breakfast.en-gb.html
+
+https://www.booking.com/hotel/gb/the-whoop-hall.en-gb.html
+
+https://www.booking.com/hotel/gb/newinnhotel.en-gb.html
+
+- Image of parked cars is attributed to Florian Pircher and has been downloaded from Pixabay. Here is the link source:
+
+https://pixabay.com/users/fill-8988/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=825371
+
+- Where in the UK iframe has been taken directly from Google Maps.
+
+__Walks Page__
+
+- Screenshots taken from Google Maps
+
+__Three Peaks Challenge Page__
+
+- Screenshots taken from Google Maps
+
+__Events Page__
+
+- Same three images used from home page of Pen-y-ghent, Whernside & Ingleborough. Attributed in home page section above.
+
+- Image of Yorkshire Dales attributed to Tim Hill downloaded from Pixabay. Here is the link source:
+
+https://pixabay.com/photos/cry-stone-walls-yorkshire-dales-2451428/
 
 ### Acknowledgments
-Social media links from love running
+
+See following small changes advised by Mentor that have been implemented into my project.
+
+![image](https://user-images.githubusercontent.com/102811792/173596980-09b29c1f-8850-456d-a564-27ecaff23b3b.png)
+
+![image](https://user-images.githubusercontent.com/102811792/173597083-fe5c6219-f61e-4911-9864-e44201aaea83.png)
+
+![image](https://user-images.githubusercontent.com/102811792/173597166-f6109039-18bc-49ff-9e21-2799ec9c1895.png)
+
+![image](https://user-images.githubusercontent.com/102811792/173597240-eeac96a0-67c5-404e-bb0f-b44eac8fbd62.png)
