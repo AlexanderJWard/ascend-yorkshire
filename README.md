@@ -67,6 +67,8 @@ I've picked earthy colors that work well together to match my Ascend Yorkshire t
 
 ![image](https://user-images.githubusercontent.com/102811792/172001155-349c1aae-9aa5-489a-a212-060f53978eac.png)
 
+![image](https://user-images.githubusercontent.com/102811792/173600138-83b9def7-a80e-4108-8a17-e7422487b67d.png)
+
 Below are my color contrast tests on WebAIM:
 
 ![image](https://user-images.githubusercontent.com/102811792/169293422-8e36411b-7468-44c2-85c5-164761951ce8.png)
