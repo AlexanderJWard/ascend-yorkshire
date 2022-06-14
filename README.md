@@ -327,11 +327,15 @@ Defects tracked via GitHub issues which can be viewed here: https://github.com/A
 
 ### Defects of Note
 
-I struggled early on in the development to move the logo I created close enough to the h1 title that I thought looked best. I spent quite a bit of time learning about relative and absolute positions before achieving the end result after some trial and error. This issue can be found here: https://github.com/AlexanderJWard/ascend-yorkshire/issues/2
+- I struggled early on in the development to move the logo I created close enough to the h1 title that I thought looked best. I spent quite a bit of time learning about relative and absolute positions before achieving the end result after some trial and error. This issue can be found here: https://github.com/AlexanderJWard/ascend-yorkshire/issues/2
+
+- Another defect of note was during the development of the welcome images, they got pushed off the side of the screen. This was during my learning process of flexbox and took me more trial and error to successfully fit the images and get them to wrap instead of sticking off the page. The issue can be located here: https://github.com/AlexanderJWard/ascend-yorkshire/issues/5
+
+- When I was developing the hero image animation I ran into issues with the speed of transition due to smaller screen sizes, the image has more space to travel therefore the movement speed is very high. I found help from online forums regarding changing the time the transition takes and how to move the image by percentages. This defect can be found here: https://github.com/AlexanderJWard/ascend-yorkshire/issues/4
 
 ### Outstanding Defects
 
-One outstanding defect is on the home page accommodation section with the background images of each hotel. These images are set to cover so the image does get zoomed when going past 1800px screen size. This is a very small niche user case issue as it looks fine on the majority of viewpoints and even when the image does zoom it still looks okay, I would just rather the image stay at it's max size without zooming. I have a max width of the website at around 1600px so ideally the images need to not zoom past that max viewpoint.
+One outstanding defect is on the home page accommodation section with the background images of each hotel. These images are set to cover so the image does get zoomed when going past 1600px screen size. This affects a very small subset of users as it looks fine on the majority of viewpoints and even when the image does zoom in it still looks okay, I would just rather the image stay at it's max size without zooming. I have a max width of the website at around 1600px so ideally the images need to not zoom past that max viewpoint.
 
 ## Accessibility
 
