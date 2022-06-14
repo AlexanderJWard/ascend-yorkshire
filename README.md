@@ -63,6 +63,7 @@ I've picked earthy colors that work well together to match my Ascend Yorkshire t
 - #1F371F - Phthalo Green
 - #F8F8F8 - Cultured (Possible contrast replacement)
 - #0F1A20 - Rich Black (Possible contrast replacement)
+- #D4CB92 - Sage (Used as background body color after screen size hits max width of 1600px)
 
 ![image](https://user-images.githubusercontent.com/102811792/172001155-349c1aae-9aa5-489a-a212-060f53978eac.png)
 
