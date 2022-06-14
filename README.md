@@ -269,8 +269,52 @@ CSS Validation from jigsaw.w3.org/css-validator/validator#css
 
 ### Cross Browser and Cross Device Testing
 
+| Device                              | Browser        | OS                    | Viewpoint   |
+|-------------------------------------|----------------|-----------------------|-------------|
+| Real laptop: Dynabook Satellite Pro | Microsoft Edge | Windows 11            | 1536 x 864  |
+| Real phone: One Plus 7 Pro          | Google Chrome  | Android v11 Oxygen OS | 385 x 833   |
+| Real laptop: HP 250 G7              | Google Chrome  | Windows 10            | 1306 x 864  |
+| Emulation: Samsung Galaxy S8+       | Microsoft Edge | Windows 11            | 360 x 740   |
+| Emulation: iPad Air                 | Microsoft Edge | Windows 11            | 1180 x 820  |
+| Real desktop: Custom build          | Firefox        | Windows 10            | 2560 x 1440 |
+| Real laptop: Microsoft Surface      | Google Chrome  | Windows 11            | 1280 x 720  |
+| Emulation: iPad Mini                | Microsoft Edge | Windows 11            | 768 x 1024  |
 
 ### Manual Testing
+
+__Manual Testing For Upcoming Events Form__
+
+Steps to test the form validation on the events page.
+
+- [x] Attempt to submit form with all fields empty and verify message appears asking to fill in fields
+- [x] Attempt to submit form with an invalid email address and verify message appaears asking to enter correct format
+- [x] Attempt to submit form with no gender radio button selected and verify message asking to choose one
+- [x] Attempt to submit form with all fields valid and verify that a success message appears in a new tab
+- [x] No console errors
+- [x] Submit button redirects to a thank you page in a new tab when successfully validated
+- [x] Viewpoint looks good on mobile (label and input in column format, radio buttons spaced)
+- [x] Viewpoint looks good on tablet (label and input in row format, radio buttons spaced)
+- [x] Viewpoint looks good on desktop (label and input in row format, form width is 1/3 of total page width)
+
+![image](https://user-images.githubusercontent.com/102811792/173553290-4f4681c9-732f-4872-bb3d-2560fa01adeb.png)
+
+![image](https://user-images.githubusercontent.com/102811792/173553247-dc0f3620-c3d5-4d5a-abba-22e0658c5c4d.png)
+
+![image](https://user-images.githubusercontent.com/102811792/173554246-db12de13-54c6-4ea4-86f5-33f6c9db681d.png)
+
+![image](https://user-images.githubusercontent.com/102811792/173554040-124822bf-cc3f-4d47-a6a9-bbde7e4cad85.png)
+
+- __Mobile Viewpoint__
+
+![image](https://user-images.githubusercontent.com/102811792/173555149-0fe66c44-e1d7-4275-b2c1-ecc60d61b387.png)
+
+- __Tablet Viewpoint__
+
+![image](https://user-images.githubusercontent.com/102811792/173555575-2b476471-1b51-40bb-b660-2cb9af963d1e.png)
+
+- __Desktop Viewpoint__
+
+![image](https://user-images.githubusercontent.com/102811792/173555695-aeffa82a-c463-41e9-8549-db059ad813dd.png)
 
 
 ### Defect Tracking
