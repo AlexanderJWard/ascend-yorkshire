@@ -282,6 +282,10 @@ CSS Validation from jigsaw.w3.org/css-validator/validator#css
 
 ### Manual Testing
 
+__Google Doc Functionality Tests__
+
+https://docs.google.com/spreadsheets/d/1ILO_Xfr7EwPuTWrMtrI-bIaQxpAzeNlQJ8k3SQowKhc/edit?usp=sharing
+
 __Manual Testing For Upcoming Events Form__
 
 Steps to test the form validation on the events page.
