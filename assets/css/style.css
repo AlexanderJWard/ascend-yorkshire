@@ -1206,6 +1206,16 @@ form p {
         gap: 3rem;
     }
 
+    /* events page */
+
+    #flex-form-gender-input input {
+        margin-bottom: 1.5rem;
+     }
+ 
+     #flex-form-gender-input input, #flex-form-gender-input label {
+         margin-right: 1.5rem;
+     }
+
 }
 
 /* media query for screen size 650px and under */
@@ -1426,6 +1436,21 @@ form p {
     #post-radio-other {
         margin: 0;
     }
+
+    /* upcoming events */
+
+    .outer-events-box {
+        justify-content: center;
+    }
+
+    .events-box {
+        width: 80%;
+    }
+
+    #special-events .events-box {
+        height: 350px;
+    }
+
 
     /* form thank you page */
 
