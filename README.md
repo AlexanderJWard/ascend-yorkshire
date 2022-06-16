@@ -189,7 +189,7 @@ This section gives visitors a quick taste of each of the Three Peaks and some re
 
 Useful information for visitors looking for a longer stay in the region. Showing a few examples of hotels to stay for both small and large groups. The background image shows a brief look at the outside of each hotel so visitors can judge straight away if it's somewhere suitable. On mobile the text box fills more of the screen to be easily readable on small screen sizes.
 
-![image](https://user-images.githubusercontent.com/102811792/172926761-87d33934-9c32-4924-831d-0a9dff511b77.png)
+![image](https://user-images.githubusercontent.com/102811792/174031918-d12970a0-a996-4774-b6aa-55f1b1d52ea8.png)
 
 - __Other Information__
 
@@ -247,9 +247,7 @@ The thank you page is displayed when submitting the form to acknowledge the data
 
 When the 404 page is displayed there is the same header and footer to keep consistant with all other pages. There is also a link to click to return to the home page of Ascend Yorkshire as well as an image from one of the peaks to reassure visitors this is related to the actual website.
 
-![image](https://user-images.githubusercontent.com/102811792/172939180-4007be3c-1cdb-4d50-933f-8bec8185fd67.png)
-
-
+![image](https://user-images.githubusercontent.com/102811792/174032798-c30f9290-4609-4e56-9a17-eab168504464.png)
 
 #### Future Features
 
