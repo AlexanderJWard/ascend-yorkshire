@@ -261,7 +261,7 @@ When the 404 page is displayed there is the same header and footer to keep consi
 
 ### Validation Testing
 
-HTML Validation from validator.w3.org
+HTML Validation performed using https://validator.w3.org/
 
 - __Home Page__
 
@@ -287,7 +287,7 @@ HTML Validation from validator.w3.org
 
 ![image](https://user-images.githubusercontent.com/102811792/172948231-7e635c0f-790d-4397-b478-77721c4bfb68.png)
 
-CSS Validation from jigsaw.w3.org/css-validator/validator#css
+CSS Validation performed using https://jigsaw.w3.org/css-validator/
 
 - __Home Page__
 
@@ -373,9 +373,33 @@ One outstanding defect is on the home page accommodation section with the backgr
 
 ## Accessibility
 
-
 ### Lighthouse Audits
 
+Lighthouse audit done using https://web.dev/measure/
+
+- __Home Page__
+
+![image](https://user-images.githubusercontent.com/102811792/174029067-f70edb7e-3e17-4db3-b758-a1700af3ebac.png)
+
+- __Walks Page_
+
+![image](https://user-images.githubusercontent.com/102811792/174029274-31379231-5530-4c55-86e9-39e7ff050ee6.png)
+
+- __Three Peaks Challenge Page__
+
+![image](https://user-images.githubusercontent.com/102811792/174029465-b566290c-6225-4b25-81af-2c9222900d3d.png)
+
+- __Events Page__
+
+![image](https://user-images.githubusercontent.com/102811792/174029672-840a211c-ee8f-4c2a-9e24-c28d652096e4.png)
+
+- __Thank You Page__
+
+![image](https://user-images.githubusercontent.com/102811792/174030125-faadfd61-9353-4cef-a90e-09f156682416.png)
+
+- __404 Page__
+
+![image](https://user-images.githubusercontent.com/102811792/174030282-f6e91d1d-6d22-46a8-a37e-a377c804ddd3.png)
 
 ### Keyboard Navigation
 
@@ -410,7 +434,6 @@ I've tested the ability to navigate each page by using Tab and Enter key. This w
 The live link is located at https://alexanderjward.github.io/ascend-yorkshire/
 
 ## Credits
-
 
 ### Content
 
