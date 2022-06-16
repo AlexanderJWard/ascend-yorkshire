@@ -368,7 +368,7 @@ Defects tracked via GitHub issues which can be viewed here: https://github.com/A
 
 ### Outstanding Defects
 
-One outstanding defect is on the home page accommodation section with the background images of each hotel. These images are set to cover so the image does get zoomed when going past 1600px screen size. This affects a very small subset of users as it looks fine on the majority of viewpoints and even when the image does zoom in it still looks okay, I would just rather the image stay at it's max size without zooming. I have a max width of the website at around 1600px so ideally the images need to not zoom past that max viewpoint.
+Defect on the home page accommodation section with all the background images of each hotel. These images are set to background-size: cover so the image zooms in when going past the 1600px viewpoint. This affects a very small subset of users as it looks fine on the majority of viewpoints and even when the image does zoom in it still looks reasonable, ideally the image should stay at it's max size without zooming to fill space that's not even visible anyway. I've set a max width of the website at around 1600px so the images need to stop increasing needlessly in size past that max viewpoint.
 
 ## Accessibility
 
@@ -458,7 +458,7 @@ https://www.booking.com/hotel/gb/newinnhotel.en-gb.html
 
 __Walks Page__
 
-- Weather Widgit taken from https://weatherwidget.io/
+- Weather Widgit is from https://weatherwidget.io/
 
 ![image](https://user-images.githubusercontent.com/102811792/173595796-d5926a28-8210-4b60-b45a-c649db8c4213.png)
 
@@ -466,7 +466,7 @@ __Walks Page__
 
 __Home Page__
 
-- Hero image is attributed to Tim Hill and I have downloaded from pixabay. Here is the link source:
+- Hero image is attributed to Tim Hill and has been downloaded from pixabay. Here is the link source:
 
 https://pixabay.com/users/timhill-5727184/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2443093
 
@@ -474,7 +474,7 @@ https://pixabay.com/users/timhill-5727184/?utm_source=link-attribution&amp;utm_m
 
 https://www.publicdomainpictures.net/en/view-image.php?image=214238&picture=view-to-and-from-pen-y-ghent
 
-- Image of Whernside is attributed to Cyberdemon007 and has been downlaoded from Wikipedia Commons. Here is the link source:
+- Image of Whernside is attributed to Cyberdemon007 and has been downloaded from Wikipedia Commons. Here is the link source:
 
 https://commons.wikimedia.org/wiki/File:Whernside_and_Ribblehead_Viaduct.jpg
 
@@ -482,7 +482,7 @@ https://commons.wikimedia.org/wiki/File:Whernside_and_Ribblehead_Viaduct.jpg
 
 https://commons.wikimedia.org/wiki/File:Ingleborough_(7603).jpg
 
-- Images of hotels used as background images in accommodation section have been taken from booking.com. As my accommodation content is directly linking the booking.com page I have decided to use a picture from their website to advertise it at attribute the source. Here are the link sources:
+- Hotel images used in the accommodation section have been taken directly from booking.com. As my accommodation content is directly linking the related booking.com pages I've decided to use a picture from their website to advertise it and attribute the source. Here are the link sources:
 
 https://www.booking.com/hotel/gb/the-crown-settle1.en-gb.html
 
@@ -496,15 +496,15 @@ https://www.booking.com/hotel/gb/newinnhotel.en-gb.html
 
 https://pixabay.com/users/fill-8988/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=825371
 
-- Where in the UK iframe has been taken directly from Google Maps.
+- Where in the UK iframe embed has been taken directly from Google Maps.
 
 __Walks Page__
 
-- Screenshots taken from Google Maps
+- Screenshots taken from Google Maps.
 
 __Three Peaks Challenge Page__
 
-- Screenshots taken from Google Maps
+- Screenshots taken from Google Maps.
 
 __Events Page__
 
@@ -516,7 +516,7 @@ https://pixabay.com/photos/cry-stone-walls-yorkshire-dales-2451428/
 
 ### Acknowledgments
 
-See following small changes advised by Mentor that have been implemented into my project.
+See following changes advised by Mentor that have been implemented into my project.
 
 ![image](https://user-images.githubusercontent.com/102811792/173596980-09b29c1f-8850-456d-a564-27ecaff23b3b.png)
 
