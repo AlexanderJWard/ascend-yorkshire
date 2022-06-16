@@ -138,9 +138,9 @@ Hover effect on navigation links to invert the colours.
 
 Hover effect on the accommodation text to change opacity of background to make text more readable.
 
-![image](https://user-images.githubusercontent.com/102811792/172006479-353e4cf9-a72d-4289-993b-d2e70ed96b4f.png)
+![image](https://user-images.githubusercontent.com/102811792/174117459-1a09ff48-f057-4f72-8788-ee45efeb5bde.png)
 
-![image](https://user-images.githubusercontent.com/102811792/172006506-89878839-549e-4f2c-810b-63f35f6ee1a6.png)
+![image](https://user-images.githubusercontent.com/102811792/174117510-8720c6a3-33fe-4fde-8ffb-a652b4b6bc48.png)
 
 Hover effect on the three peaks challenge link to make it underlined.
 
@@ -189,7 +189,7 @@ This section gives visitors a quick taste of each of the Three Peaks and some re
 
 Useful information for visitors looking for a longer stay in the region. Showing a few examples of hotels to stay for both small and large groups. The background image shows a brief look at the outside of each hotel so visitors can judge straight away if it's somewhere suitable. On mobile the text box fills more of the screen to be easily readable on small screen sizes.
 
-![image](https://user-images.githubusercontent.com/102811792/174031918-d12970a0-a996-4774-b6aa-55f1b1d52ea8.png)
+![image](https://user-images.githubusercontent.com/102811792/174117651-04f276de-1832-4676-b400-3ec5b4e53179.png)
 
 - __Other Information__
 
@@ -247,7 +247,7 @@ The thank you page is displayed when submitting the form to acknowledge the data
 
 When the 404 page is displayed there is the same header and footer to keep consistant with all other pages. There is also a link to click to return to the home page of Ascend Yorkshire as well as an image from one of the peaks to reassure visitors this is related to the actual website.
 
-![image](https://user-images.githubusercontent.com/102811792/174032798-c30f9290-4609-4e56-9a17-eab168504464.png)
+![image](https://user-images.githubusercontent.com/102811792/174117761-047d1c39-c55d-4ebc-96f9-b3b9eb0da31f.png)
 
 #### Future Features
 
