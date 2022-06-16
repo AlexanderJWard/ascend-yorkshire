@@ -190,6 +190,15 @@ header img {
     flex: 4;
 }
 
+#welcome-section-text-challenge a {
+    text-decoration: none;
+    color: #F4FFF8;
+}
+
+#welcome-section-text-challenge a:hover {
+    text-decoration: underline;
+}
+
 #welcome-section-text-challenge h2 {
     text-align: left;
     margin-left: 2rem;
@@ -1209,11 +1218,12 @@ form p {
 
     #flex-form-gender-input input {
         margin-bottom: 1.5rem;
-     }
- 
-     #flex-form-gender-input input, #flex-form-gender-input label {
-         margin-right: 1.5rem;
-     }
+    }
+
+    #flex-form-gender-input input,
+    #flex-form-gender-input label {
+        margin-right: 1.5rem;
+    }
 
 }
 
