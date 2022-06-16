@@ -311,6 +311,7 @@ CSS Validation performed using https://jigsaw.w3.org/css-validator/
 | Real desktop: Custom build          | Firefox        | Windows 10            | 2560 x 1440 |
 | Real laptop: Microsoft Surface      | Google Chrome  | Windows 11            | 1280 x 720  |
 | Emulation: iPad Mini                | Microsoft Edge | Windows 11            | 768 x 1024  |
+| Real tablet: iPad (9th Gen)         | Safari         | IOS 15.5              | 1024 x 1366 |
 
 ### Manual Testing
 
