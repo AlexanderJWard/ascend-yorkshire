@@ -52,7 +52,6 @@ nav {
     display: flex;
     padding: 0.5rem 0;
     justify-content: flex-start;
-    /* width: 35%; */
     align-items: center;
 }
 
@@ -107,7 +106,7 @@ header img {
     overflow: hidden;
 }
 
-/* Image by <a href="https://pixabay.com/users/timhill-5727184/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2443093">Tim Hill</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2443093">Pixabay</a> */
+/* Image by https://pixabay.com/users/timhill-5727184/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2443093">Tim Hill</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2443093 */
 
 #hero-image {
     height: inherit;
