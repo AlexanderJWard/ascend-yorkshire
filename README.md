@@ -136,6 +136,12 @@ Hover effect on navigation links to invert the colours.
 
 ![image](https://user-images.githubusercontent.com/102811792/172006411-1d1fb669-fadd-44d3-8a24-4c8424811e74.png)
 
+Hover effect on the welcome section challenge text to underline link to Three Peaks Challenge page.
+
+![image](https://user-images.githubusercontent.com/102811792/174120777-f052d649-22f9-4798-9757-bd15949170cb.png)
+
+![image](https://user-images.githubusercontent.com/102811792/174120843-b32be6eb-df7b-434e-a889-5362ce7f059d.png)
+
 Hover effect on the accommodation text to change opacity of background to make text more readable.
 
 ![image](https://user-images.githubusercontent.com/102811792/174117459-1a09ff48-f057-4f72-8788-ee45efeb5bde.png)
@@ -183,7 +189,7 @@ The hero image is a photograph capturing the breathtaking views that can be expe
 
 This section gives visitors a quick taste of each of the Three Peaks and some reasons why to visit the area. This gives visitors the confidence that the area is popular and there are plenty of places to stay overnight if required. Mobile screen size changes adjacent paragraphs and images into a column format.
 
-![image](https://user-images.githubusercontent.com/102811792/172925987-c99df30e-1606-4e3a-87f3-a2aef6c788cd.png)
+![image](https://user-images.githubusercontent.com/102811792/174121019-70d660ca-e180-4514-a29d-a46f1973ae1a.png)
 
 - __Accommodation Section__
 
